@@ -1,0 +1,130 @@
+/* Добавление шрифта */
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url(/fonts/TTLakes-Regular.eot);
+  src: url(/fonts/TTLakes-Regular.eot?#iefix) format("embedded-opentype"),
+    url(/fonts/TTLakes-Regular.woff) format("woff"),
+    url(/fonts/TTLakes-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Bold';
+    src: url(/fonts/TTLakes-Bold.eot);
+    src: url(/fonts/TTLakes-Bold.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/TTLakes-Bold.woff) format('woff'),
+    url(/fonts/TTLakes-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+html {
+  box-sizing: border-box;
+  font-family: 'TT Lakes Regular',
+  Times, serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Обнуление отступов */
+body,
+html,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.upperMenu {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d9fff5;
+}
+
+.upperMenu--size--mobile {
+  width: 320px;
+  height: 88px;
+}
+
+.iconBack,
+.logo,
+.divider {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.iconBack {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 96.55px;
+  height: 50.81px;
+}
+
+.divider {
+  width: 2px;
+  height: 32px;
+  background-color: #eaeaea;
+}
+
+.main {
+  background-color: #f8f8f8;
+}
+
+.main--size--mobile {
+  width: 320px;
+  height: 509px;
+  padding-top: 24px;
+  padding-left: 16px;
+}
+
+.main__description {
+  background-color: #ffffff;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.title__text {
+    font-family: "TT Lakes Bold";
+    font-size: 28px;
+    color: #1B1C21;
+}
+
+.title__highlight {
+    width: 8px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #41F6D7;
+    margin-left: -20px;
+    margin-right: 12px;
+}
+
+.horizontalMenu {
+  display: flex;
+  overflow: scroll;
+  margin-bottom: 24px;
+}
+
+.linkBookmark {
+  height: 40px;
+  border-radius: 60%;
+}
+
+/* Остановился на скроллящейся мнеюшке; Доделать servicesTitle; там же оформить предстоящую бирюзовую полоску выходящим за рамки кадратом */
+
+/* @media (min-width: 320px)
+and (max-width: 767px) {
+
+} */

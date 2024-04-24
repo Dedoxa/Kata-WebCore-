@@ -1,0 +1,377 @@
+/* Добавление шрифта */
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url(/fonts/TTLakes/Regular/TTLakes-Regular.eot);
+  src: url(/fonts/TTLakes/Regular/TTLakes-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(/fonts/TTLakes/Regular/TTLakes-Regular.woff) format("woff"),
+    url(/fonts/TTLakes/Regular/TTLakes-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Bold";
+  src: url(/fonts/TTLakes/Bold/TTLakes-Bold.eot);
+  src: url(/fonts/TTLakes/Bold/TTLakes-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(/fonts/TTLakes/Bold/TTLakes-Bold.woff) format("woff"),
+    url(/fonts/TTLakes/Bold/TTLakes-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url(/fonts/TTLakes/Medium/TTLakes-Medium.eot);
+  src: url(/fonts/TTLakes/Medium/TTLakes-Medium.eot?#iefix)
+      format("embedded-opentype"),
+    url(/fonts/TTLakes/Medium/TTLakes-Medium.woff) format("woff"),
+    url(/fonts/TTLakes/Medium/TTLakes-Medium.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "TT Lakes Regular", Times, serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+html,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.upper-menu {
+  display: flex;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d9fff5;
+}
+
+.divider {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.icon-container {
+  position: relative;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.icon-container--pink {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+}
+
+.icon-container--logo {
+  width: 98px;
+  height: 52px;
+  margin-top: 18.59px;
+  margin-bottom: 18.59px;
+}
+
+.icon-repair--desktop,
+.icon-checkStatus--desktop {
+  display: none;
+}
+
+.icon-text {
+  margin-right: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.svg-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.divider {
+  width: 2px;
+  height: 32px;
+  background-color: #eaeaea;
+}
+
+.main {
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.description__text {
+  font-size: 14px;
+  color: #1b1c21;
+  width: 288px;
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.title__text {
+  font-family: "TT Lakes Bold";
+  font-size: 28px;
+  color: #1b1c21;
+}
+
+.title__highlight {
+  position: absolute;
+  left: -4px;
+  width: 8px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #41f6d7;
+  margin-right: 12px;
+}
+
+.bookmark-menu {
+  display: flex;
+  overflow: scroll;
+  margin-bottom: 1.5em;
+}
+
+.bookmark {
+  vertical-align: middle;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #7e7e82;
+  text-decoration: none;
+  white-space: nowrap;
+  border: none;
+  background-color: transparent;
+}
+
+.bookmark--focus {
+  background-color: #ffffff;
+  border: 2px solid #b8ffec;
+}
+
+.right-fade-effect {
+  position: absolute;
+  right: 0px;
+  width: 24px;
+  height: 40px;
+  background: linear-gradient(
+    to right,
+    rgba(248, 248, 248, 0),
+    rgba(248, 248, 248, 1)
+  );
+}
+
+.toggler {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.toggler__text {
+  font-family: "TT Lakes Medium";
+  margin-left: 0.5em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.main-image {
+  position: absolute;
+}
+
+/* CSS ТЕЛЕФОНЫ */
+@media (max-width: 767px) {
+  .upper-menu {
+    width: 320px;
+    height: 88px;
+  }
+
+  .icon-call,
+  .icon-chat,
+  .icon-profile,
+  .divider--one {
+    display: none;
+  }
+
+  .icon-burger {
+    margin-left: 16px;
+  }
+
+  .icon-logo {
+    margin-right: 16.73px;
+    margin-left: 16.73px;
+  }
+
+  .divider--two {
+    margin-right: 20px;
+  }
+
+  .icon-repair,
+  .icon-checkStatus {
+    margin-right: 16px;
+  }
+
+  .main {
+    width: 320px;
+    height: 509px;
+    padding-top: 24px;
+    padding-left: 16px;
+  }
+
+  .main-image {
+    left: 0;
+  }
+}
+
+/* CSS ПЛАНШЕТЫ */
+@media (min-width: 768px) and (max-width: 1120px) {
+  .upper-menu {
+    width: 768px;
+    height: 88px;
+  }
+
+  .icon-burger {
+    margin-left: 24px;
+  }
+
+  .divider {
+    margin-left: 20px;
+  }
+
+  .icon-logo {
+    margin-right: 250.73px;
+    margin-left: 20.73px;
+  }
+
+  .divider--two {
+    margin-right: 20px;
+  }
+
+  .icon-call,
+  .icon-chat,
+  .icon-repair {
+    margin-right: 16px;
+  }
+
+  .icon-checkStatus {
+    margin-right: 24px;
+  }
+
+  .main {
+    width: 768px;
+    height: 416px;
+    padding-top: 24px;
+    padding-left: 24px;
+  }
+
+  .page-content {
+    display: flex;
+  }
+
+  .bookmark-menu {
+    margin-bottom: 32px;
+  }
+
+  .description {
+    height: 208px;
+  }
+
+  .description__text {
+    width: 312px;
+    height: 160px;
+    margin-bottom: 10px;
+    margin-right: 48px;
+  }
+
+  .main-image {
+    position: static;
+    width: 360px;
+    height: 208px;
+    border-radius: 5px;
+  }
+}
+
+/* CSS ДЕСКТОПЫ */
+@media (min-width: 1121px) {
+  .upper-menu {
+    display: none;
+  }
+
+  .icon-container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .icon-repair--desktop,
+  .icon-checkStatus--desktop {
+    display: block;
+  }
+
+  .icon-repair--desktop {
+    margin-right: 32px;
+  }
+
+  .title {
+    margin-bottom: 8px;
+  }
+
+  .title__text {
+    margin-right: 450px;
+  }
+
+  .bookmark-menu {
+    display: block;
+    overflow: auto;
+    margin-bottom: 0;
+  }
+
+  .main {
+    width: 1121px;
+    height: 535px;
+    padding-top: 42px;
+    padding-left: 16px;
+  }
+
+  .page-content {
+    display: flex;
+  }
+
+  .main-image {
+    position: static;
+    width: 531.35px;
+    height: 208px;
+    border-radius: 5px;
+  }
+}
+
+/*
+ЗАМЕТКИ
+шрифт в description-text
+
+-Телефоны
+  (посмотреть остальные отступы)
+
+-Планшеты
+  вертикальные отступы;
+  настроить второй размер сайта;
+  сделать третий размер сайта
+
+-Десктопы
+  слово
+
+*/

@@ -1,0 +1,200 @@
+/* Добавление шрифта */
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url(/fonts/TTLakes/Regular/TTLakes-Regular.eot);
+  src: url(/fonts/TTLakes/Regular/TTLakes-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(/fonts/TTLakes/Regular/TTLakes-Regular.woff) format("woff"),
+    url(/fonts/TTLakes/Regular/TTLakes-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Bold";
+  src: url(/fonts/TTLakes/Bold/TTLakes-Bold.eot);
+  src: url(/fonts/TTLakes/Bold/TTLakes-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(/fonts/TTLakes/Bold/TTLakes-Bold.woff) format("woff"),
+    url(/fonts/TTLakes/Bold/TTLakes-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url(/fonts/TTLakes/Medium/TTLakes-Medium.eot);
+  src: url(/fonts/TTLakes/Medium/TTLakes-Medium.eot?#iefix)
+      format("embedded-opentype"),
+    url(/fonts/TTLakes/Medium/TTLakes-Medium.woff) format("woff"),
+    url(/fonts/TTLakes/Medium/TTLakes-Medium.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "TT Lakes Regular", Times, serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Обнуление отступов */
+body,
+html,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.upperMenu {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d9fff5;
+}
+
+.upperMenu--size--mobile {
+  width: 320px;
+  height: 88px;
+}
+
+.iconBack,
+.logo,
+.divider {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+}
+
+.icon__svg {
+    position: absolute;
+    left: auto;
+    top: auto;
+}
+
+.logo {
+  width: 96.55px;
+  height: 50.81px;
+}
+
+.divider {
+  width: 2px;
+  height: 32px;
+  background-color: #eaeaea;
+}
+
+.main {
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.main--size--mobile {
+  width: 320px;
+  height: 509px;
+  padding-top: 1.5em;
+  padding-left: 16px;
+}
+
+.main__description {
+  font-size: 14px;
+  color: #1b1c21;
+  width: 288px;
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.title__text {
+  font-family: "TT Lakes Bold";
+  font-size: 28px;
+  color: #1b1c21;
+}
+
+.title__highlight {
+  position: absolute;
+  left: -4px;
+  width: 8px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #41f6d7;
+  margin-right: 12px;
+}
+
+.horizontalMenu {
+  display: flex;
+  overflow: scroll;
+  margin-bottom: 1.5em;
+}
+
+.bookmark {
+  vertical-align: middle;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #7e7e82;
+  text-decoration: none;
+  white-space: nowrap;
+  border: none;
+  background-color: transparent;
+}
+
+.bookmark--active {
+  background-color: #ffffff;
+  border: 2px solid #b8ffec;
+}
+
+.rightFadeEffect {
+    position: absolute;
+    right: 0px;
+    width: 24px;
+    height: 40px;
+    background: linear-gradient(to right, rgba(248, 248, 248, 0), rgba(248, 248, 248, 1));
+}
+
+.textToggler {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.textToggler__text {
+  font-family: "TT Lakes Medium";
+  margin-left: 0.5em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.textToggler__togglerArrow {}
+
+.main__Image {
+  position: absolute;
+  left: 0;
+}
+
+/*
+размер иконок;
+дизайн хайлайтера;
+
+*/
+
+/* @media (min-width: 320px)
+and (max-width: 767px) {
+
+} */

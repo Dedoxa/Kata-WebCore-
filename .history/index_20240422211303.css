@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Обнуление отступов */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.upperMenu {
+    background-color: #80949F;
+}
+
+.upperMenu--size--mobile {
+   width: 320px; 
+   height: 88px;
+}
+
+.main {
+    background-color: #F8F8F8;
+}
+
+.main--size--mobile {
+   width: 320px; 
+   height: 509px;
+}
+
+.main__description {
+    background-color: #FFFFFF;
+}
+
+/* @media (min-width: 320px)
+and (max-width: 767px) {
+
+} */

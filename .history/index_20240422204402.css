@@ -1,0 +1,22 @@
+html {
+    box-sizing: ;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.upperMenu {
+    background-color: aquamarine;
+}
+
+.upperMenu_size-mobile {
+   width: 320px; 
+   height: 88px;
+}
+
+/* @media (min-width: 320px)
+and (max-width: 767px) {
+
+} */

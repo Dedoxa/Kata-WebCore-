@@ -1,0 +1,102 @@
+/* Добавление шрифта */
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url(/fonts/TTLakes-Regular.eot);
+  src: url(/fonts/TTLakes-Regular.eot?#iefix) format("embedded-opentype"),
+    url(/fonts/TTLakes-Regular.woff) format("woff"),
+    url(/fonts/TTLakes-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'TT Lakes Regular',
+  Times, serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Обнуление отступов */
+body,
+html,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.upperMenu {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d9fff5;
+}
+
+.upperMenu--size--mobile {
+  width: 320px;
+  height: 88px;
+}
+
+.iconBack,
+.logo,
+.divider {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.iconBack {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 96.55px;
+  height: 50.81px;
+}
+
+.divider {
+  width: 2px;
+  height: 32px;
+  background-color: #eaeaea;
+}
+
+.main {
+  background-color: #f8f8f8;
+}
+
+.main--size--mobile {
+  width: 320px;
+  height: 509px;
+}
+
+.main__description {
+  background-color: #ffffff;
+}
+
+.servicesTitle {
+    font-size: 28px;
+    color: #1B1C21;
+}
+
+.horizontalMenu {
+  display: flex;
+  overflow: scroll;
+}
+
+.linkBookmark {
+  height: 40px;
+  border-radius: 60%;
+}
+
+/* Остановился на скроллящейся мнеюшке; Скачать и подключить шрифт; Доделать servicesTitle; там же оформить предстоящую бирюзовую полоску выходящим за рамки кадратом */
+
+/* @media (min-width: 320px)
+and (max-width: 767px) {
+
+} */
