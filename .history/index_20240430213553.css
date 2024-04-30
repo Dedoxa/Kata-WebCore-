@@ -95,7 +95,6 @@ button {
 
 .upper-menu > .icon:nth-child(2)::before,
 .upper-menu > .icon:nth-child(6)::before {
-  position: absolute;
   content: "";
   display: block;
   border-radius: 5px;
@@ -188,7 +187,6 @@ button {
   .upper-menu {
     min-width: 320px;
     height: 88px;
-    justify-content: space-evenly;
   }
 
   .upper-menu > .icon:nth-child(3),

@@ -95,7 +95,6 @@ button {
 
 .upper-menu > .icon:nth-child(2)::before,
 .upper-menu > .icon:nth-child(6)::before {
-  position: absolute;
   content: "";
   display: block;
   border-radius: 5px;

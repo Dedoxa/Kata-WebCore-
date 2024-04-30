@@ -95,13 +95,13 @@ button {
 
 .upper-menu > .icon:nth-child(2)::before,
 .upper-menu > .icon:nth-child(6)::before {
-  position: absolute;
   content: "";
   display: block;
   border-radius: 5px;
   width: 2px;
   height: 32px;
   background-color: #eaeaea;
+  margin-right: 10px;
 }
 
 .main {

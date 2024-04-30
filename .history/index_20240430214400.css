@@ -102,6 +102,7 @@ button {
   width: 2px;
   height: 32px;
   background-color: #eaeaea;
+  right: 20px;
 }
 
 .main {
