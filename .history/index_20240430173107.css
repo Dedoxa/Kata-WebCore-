@@ -72,7 +72,7 @@ button {
   border-radius: 50%;
 }
 
-.upper-menu > .icon-container:nth-child(2) {
+.icon-container:nth-child(2) {
   width: 98px;
   height: 52px;
   margin-top: 18.59px;
@@ -93,11 +93,10 @@ button {
   transform: translate(-50%, -50%);
 }
 
-.upper-menu > .icon-container:nth-child(2)::before,
-.upper-menu > .icon-container:nth-child(6)::before {
+.icon-container:nth-child(2)::before,
+.icon-container:nth-child(6)::before {
   content: "";
   display: block;
-  border-radius: 5px;
   margin-top: auto;
   margin-bottom: auto;
   width: 2px;
@@ -198,7 +197,7 @@ button {
   .icon-call,
   .icon-chat,
   .icon-profile,
-  .upper-menu > .icon-container:nth-child(2)::before {
+  .divider--one {
     display: none;
   }
 
@@ -206,12 +205,12 @@ button {
     margin-left: 16px;
   }
 
-  .upper-menu > .icon-container:nth-child(2) {
+  .icon-container:nth-child(2) {
     margin-right: 16.73px;
     margin-left: 16.73px;
   }
 
-  .upper-menu > .icon-container:nth-child(6)::before {
+  .divider--two {
     margin-right: 20px;
   }
 
@@ -264,17 +263,16 @@ button {
     margin-left: 24px;
   }
 
-  .upper-menu > .icon-container:nth-child(2)::before,
-  .upper-menu > .icon-container:nth-child(6)::before {
-    margin-right: 20px;
+  .divider {
+    margin-left: 20px;
   }
 
-  .upper-menu > .icon-container:nth-child(2) {
+  .icon-container:nth-child(2) {
     margin-right: 250.73px;
     margin-left: 20.73px;
   }
 
-  .upper-menu > .icon-container:nth-child(6)::before {
+  .divider--two {
     margin-right: 20px;
   }
 
