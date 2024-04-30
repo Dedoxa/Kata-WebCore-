@@ -72,7 +72,7 @@ button {
   border-radius: 50%;
 }
 
-.icon-container:nth-child(3) {
+.icon-container--logo {
   width: 98px;
   height: 52px;
   margin-top: 18.59px;
@@ -93,7 +93,7 @@ button {
   transform: translate(-50%, -50%);
 }
 
-.divider {
+.icon-container:nth-child(2)::before {
   margin-top: 28px;
   margin-bottom: 28px;
   width: 2px;
@@ -202,7 +202,7 @@ button {
     margin-left: 16px;
   }
 
-  .icon-container:nth-child(3) {
+  .icon-logo {
     margin-right: 16.73px;
     margin-left: 16.73px;
   }
@@ -264,7 +264,7 @@ button {
     margin-left: 20px;
   }
 
-  .icon-container:nth-child(3) {
+  .icon-logo {
     margin-right: 250.73px;
     margin-left: 20.73px;
   }
