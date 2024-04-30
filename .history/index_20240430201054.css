@@ -354,6 +354,10 @@ button {
     margin-bottom: auto;
   }
 
+  .icon-repair--desktop {
+    margin-right: 32px;
+  }
+
   .title {
     margin-bottom: 8px;
   }

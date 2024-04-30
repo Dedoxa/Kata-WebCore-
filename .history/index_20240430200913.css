@@ -80,7 +80,7 @@ button {
   background-color: transparent;
 }
 
-.icon-desktop > .icon-container,
+.icon-desktop > .icon-container:nth-child(2),
 .icon-text {
   display: none;
 }
@@ -339,7 +339,8 @@ button {
     margin-bottom: 0;
   }
 
-  .icon-desktop > .icon-container {
+  .icon-repair--desktop,
+  .icon-checkStatus--desktop {
     display: block;
   }
 
@@ -352,6 +353,10 @@ button {
     margin-right: 8px;
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .icon-repair--desktop {
+    margin-right: 32px;
   }
 
   .title {

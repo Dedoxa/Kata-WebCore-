@@ -354,6 +354,10 @@ button {
     margin-bottom: auto;
   }
 
+  /* .icon-desktop > .icon-container {
+    margin-right: 32px;
+  } */
+
   .title {
     margin-bottom: 8px;
   }
