@@ -197,7 +197,7 @@ button {
 
   .upper-menu > .icon-container:nth-child(3),
   .upper-menu > .icon-container:nth-child(4),
-  .upper-menu > .icon-container:nth-child(5),
+  .icon-profile,
   .upper-menu > .icon-container:nth-child(2)::before {
     display: none;
   }
@@ -215,8 +215,8 @@ button {
     margin-right: 20px;
   }
 
-  .upper-menu > .icon-container:nth-child(6),
-  .upper-menu > .icon-container:nth-child(7) {
+  .icon-repair,
+  .icon-checkStatus {
     margin-right: 16px;
   }
 
@@ -280,11 +280,11 @@ button {
 
   .upper-menu > .icon-container:nth-child(3),
   .icon-chat,
-  .upper-menu > .icon-container:nth-child(6) {
+  .icon-repair {
     margin-right: 16px;
   }
 
-  .upper-menu > .icon-container:nth-child(7) {
+  .icon-checkStatus {
     margin-right: 24px;
   }
 

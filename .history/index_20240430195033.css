@@ -216,7 +216,7 @@ button {
   }
 
   .upper-menu > .icon-container:nth-child(6),
-  .upper-menu > .icon-container:nth-child(7) {
+  .icon-checkStatus {
     margin-right: 16px;
   }
 
@@ -280,11 +280,11 @@ button {
 
   .upper-menu > .icon-container:nth-child(3),
   .icon-chat,
-  .upper-menu > .icon-container:nth-child(6) {
+  .icon-repair {
     margin-right: 16px;
   }
 
-  .upper-menu > .icon-container:nth-child(7) {
+  .icon-checkStatus {
     margin-right: 24px;
   }
 
