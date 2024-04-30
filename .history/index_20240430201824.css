@@ -197,7 +197,9 @@ button {
   .upper-menu > .icon-container:nth-child(6)::before {}
 
   .upper-menu > .icon-container:nth-child(6),
-  .upper-menu > .icon-container:nth-child(7) {}
+  .upper-menu > .icon-container:nth-child(7) {
+    margin-right: 16px;
+  }
 
   .main {
     width: 320px;
@@ -206,15 +208,20 @@ button {
     padding-left: 16px;
   }
 
-  .bookmark-menu {}
+  .bookmark-menu {
+    margin-bottom: 24px;
+  }
 
   .description__text {
     width: 288px;
     height: 90px;
+    margin-bottom: 16px;
     line-height: 18px;
   }
 
-  .toggler {}
+  .toggler {
+    margin-bottom: 16px;
+  }
 
   .main-image--size-tablet,
   .main-image--size-desktop {
@@ -234,20 +241,33 @@ button {
     height: 88px;
   }
 
-  .icon-container:first-child {}
+  .icon-container:first-child {
+    margin-left: 24px;
+  }
 
   .upper-menu > .icon-container:nth-child(2)::before,
-  .upper-menu > .icon-container:nth-child(6)::before {}
+  .upper-menu > .icon-container:nth-child(6)::before {
+    margin-right: 20px;
+  }
 
-  .upper-menu > .icon-container:nth-child(2) {}
+  .upper-menu > .icon-container:nth-child(2) {
+    margin-right: 250.73px;
+    margin-left: 20.73px;
+  }
 
-  .upper-menu > .icon-container:nth-child(6)::before {}
+  .upper-menu > .icon-container:nth-child(6)::before {
+    margin-right: 20px;
+  }
 
   .upper-menu > .icon-container:nth-child(3),
   .icon-chat,
-  .upper-menu > .icon-container:nth-child(6) {}
+  .upper-menu > .icon-container:nth-child(6) {
+    margin-right: 16px;
+  }
 
-  .upper-menu > .icon-container:nth-child(7) {}
+  .upper-menu > .icon-container:nth-child(7) {
+    margin-right: 24px;
+  }
 
   .main {
     width: 768px;
@@ -260,7 +280,9 @@ button {
     display: flex;
   }
 
-  .bookmark-menu {}
+  .bookmark-menu {
+    margin-bottom: 32px;
+  }
 
   .description {
     height: 208px;
@@ -269,6 +291,8 @@ button {
   .description__text {
     width: 312px;
     height: 160px;
+    margin-bottom: 10px;
+    margin-right: 48px;
     line-height: 20px;
   }
 
@@ -292,7 +316,10 @@ button {
     display: none;
   }
 
-  .icon-container {}
+  .icon-container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
   .icon-desktop > .icon-container {
     display: block;
@@ -304,15 +331,23 @@ button {
 
   .icon-text {
     display: inline;
+    margin-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
-  .title {}
+  .title {
+    margin-bottom: 8px;
+  }
 
-  .title__text {}
+  .title__text {
+    margin-right: 450px;
+  }
 
   .bookmark-menu {
     display: block;
     overflow: auto;
+    margin-bottom: 8px;
   }
 
   .main {
@@ -329,6 +364,8 @@ button {
   .description__text {
     width: 490px;
     height: 160px;
+    margin-bottom: 13.78px;
+    margin-right: 36px;
     line-height: 20px;
   }
 
