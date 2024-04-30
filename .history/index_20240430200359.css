@@ -347,6 +347,7 @@ button {
 
   .icon-desktop {
     display: flex;
+    cursor: pointer;
   }
 
   .icon-text {

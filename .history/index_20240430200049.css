@@ -345,10 +345,6 @@ button {
     display: block;
   }
 
-  .icon-desktop {
-    display: flex;
-  }
-
   .icon-text {
     display: inline;
     margin-right: 8px;
