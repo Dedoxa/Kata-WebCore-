@@ -72,7 +72,7 @@ button {
   border-radius: 50%;
 }
 
-.icon-container--logo {
+.upper-menu:nth-child(3) {
   width: 98px;
   height: 52px;
   margin-top: 18.59px;
@@ -198,11 +198,11 @@ button {
     display: none;
   }
 
-  .upper-menu:first-child {
+  .upper-menu:nth-child(1) {
     margin-left: 16px;
   }
 
-  .icon-logo {
+  .upper-menu:nth-child(2) {
     margin-right: 16.73px;
     margin-left: 16.73px;
   }
@@ -256,7 +256,7 @@ button {
     height: 88px;
   }
 
-  .upper-menu:first-child {
+  .upper-menu:nth-child(1) {
     margin-left: 24px;
   }
 
