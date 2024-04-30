@@ -1,3 +1,10 @@
+/*
+настроить семантические тэги
+поменять декоративные изображения на background в css
+проверить: правильно ли я указал дочерние правила (" ", ">")
+
+*/
+
 /* Добавление шрифта */
 @font-face {
   font-family: "TT Lakes Regular";
@@ -51,11 +58,6 @@ p {
   padding: 0;
 }
 
-button {
-  border: none;
-  background-color: transparent;
-}
-
 .upper-menu {
   display: flex;
   background-color: #ffffff;
@@ -71,6 +73,9 @@ button {
   position: relative;
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+.icon-container--pink {
   width: 40px;
   height: 40px;
   background-color: #ff3e79;
@@ -82,7 +87,6 @@ button {
   height: 52px;
   margin-top: 18.59px;
   margin-bottom: 18.59px;
-  background-color: transparent;
 }
 
 .icon-repair--desktop,
