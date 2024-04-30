@@ -153,7 +153,7 @@ button {
   border: 2px solid #b8ffec;
 }
 
-.bookmark-menu__right-fade-effect {
+.right-fade-effect {
   position: absolute;
   right: 0px;
   width: 24px;
@@ -290,7 +290,7 @@ button {
 /* CSS ДЕСКТОПЫ */
 @media (min-width: 1121px) {
   .upper-menu,
-  .bookmark-menu__right-fade-effect {
+  .right-fade-effect {
     display: none;
   }
 

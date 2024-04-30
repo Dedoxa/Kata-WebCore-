@@ -111,7 +111,7 @@ button {
   overflow: hidden;
 }
 
-.title {
+.main__title {
   display: flex;
 }
 
@@ -135,7 +135,7 @@ button {
   overflow: scroll;
 }
 
-.bookmark-menu__bookmark {
+.bookmark {
   vertical-align: middle;
   padding-left: 1em;
   padding-right: 1em;
@@ -148,12 +148,12 @@ button {
   background-color: transparent;
 }
 
-.bookmark-menu__bookmark--focus {
+.bookmark--focus {
   background-color: #ffffff;
   border: 2px solid #b8ffec;
 }
 
-.bookmark-menu__right-fade-effect {
+.right-fade-effect {
   position: absolute;
   right: 0px;
   width: 24px;
@@ -290,7 +290,7 @@ button {
 /* CSS ДЕСКТОПЫ */
 @media (min-width: 1121px) {
   .upper-menu,
-  .bookmark-menu__right-fade-effect {
+  .right-fade-effect {
     display: none;
   }
 
@@ -308,7 +308,7 @@ button {
     display: inline;
   }
 
-  .title {}
+  .main__title {}
 
   .title__text {}
 

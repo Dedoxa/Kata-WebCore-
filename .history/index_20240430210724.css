@@ -77,8 +77,8 @@ button {
   background-color: transparent;
 }
 
-.icon-area > .icon,
-.icon-era__text {
+.icon-desktop > .icon,
+.icon-text {
   display: none;
 }
 
@@ -135,7 +135,7 @@ button {
   overflow: scroll;
 }
 
-.bookmark-menu__bookmark {
+.bookmark {
   vertical-align: middle;
   padding-left: 1em;
   padding-right: 1em;
@@ -148,12 +148,12 @@ button {
   background-color: transparent;
 }
 
-.bookmark-menu__bookmark--focus {
+.bookmark--focus {
   background-color: #ffffff;
   border: 2px solid #b8ffec;
 }
 
-.bookmark-menu__right-fade-effect {
+.right-fade-effect {
   position: absolute;
   right: 0px;
   width: 24px;
@@ -188,8 +188,7 @@ button {
   .upper-menu > .icon:nth-child(3),
   .upper-menu > .icon:nth-child(4),
   .upper-menu > .icon:nth-child(5),
-  .upper-menu > .icon:nth-child(2)::before,
-  .icon-area__text {
+  .upper-menu > .icon:nth-child(2)::before {
     display: none;
   }
 
@@ -274,8 +273,7 @@ button {
   }
 
   .main-image--size-phone,
-  .main-image--size-desktop,
-  .icon-area__text {
+  .main-image--size-desktop {
     display: none;
   }
 
@@ -290,21 +288,21 @@ button {
 /* CSS ДЕСКТОПЫ */
 @media (min-width: 1121px) {
   .upper-menu,
-  .bookmark-menu__right-fade-effect {
+  .right-fade-effect {
     display: none;
   }
 
   .icon {}
 
-  .icon-area > .icon {
+  .icon-desktop > .icon {
     display: block;
   }
 
-  .icon-area {
+  .icon-desktop {
     display: flex;
   }
 
-  .icon-era__text {
+  .icon-text {
     display: inline;
   }
 
