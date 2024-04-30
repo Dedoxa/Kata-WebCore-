@@ -76,13 +76,13 @@ button {
   border-radius: 50%;
 }
 
-.upper-menu__icon:nth-child(2) {
+.upper-menu > .icon:nth-child(2) {
   width: 98px;
   height: 52px;
   background-color: transparent;
 }
 
-.icon-area__icon,
+.icon-area > .icon,
 .icon-era__text {
   display: none;
 }
@@ -94,8 +94,8 @@ button {
   transform: translate(-50%, -50%);
 }
 
-.upper-menu__icon:nth-child(2)::before,
-.upper-menu__icon:nth-child(6)::before {
+.upper-menu > .icon:nth-child(2)::before,
+.upper-menu > .icon:nth-child(6)::before {
   position: absolute;
   content: "";
   display: block;
@@ -192,22 +192,22 @@ button {
     justify-content: space-evenly;
   }
 
-  .upper-menu__icon:nth-child(3),
-  .upper-menu__icon:nth-child(4),
-  .upper-menu__icon:nth-child(5),
-  .upper-menu__icon:nth-child(2)::before,
+  .upper-menu > .icon:nth-child(3),
+  .upper-menu > .icon:nth-child(4),
+  .upper-menu > .icon:nth-child(5),
+  .upper-menu > .icon:nth-child(2)::before,
   .icon-area__text {
     display: none;
   }
 
   .icon:first-child {}
 
-  .upper-menu__icon:nth-child(2) {}
+  .upper-menu > .icon:nth-child(2) {}
 
-  .upper-menu__icon:nth-child(6)::before {}
+  .upper-menu > .icon:nth-child(6)::before {}
 
-  .upper-menu__icon:nth-child(6),
-  .upper-menu__icon:nth-child(7) {}
+  .upper-menu > .icon:nth-child(6),
+  .upper-menu > .icon:nth-child(7) {}
 
   .main {
     min-width: 320px;
@@ -245,18 +245,18 @@ button {
 
   .icon:first-child {}
 
-  .upper-menu__icon:nth-child(2)::before,
-  .upper-menu__icon:nth-child(6)::before {}
+  .upper-menu > .icon:nth-child(2)::before,
+  .upper-menu > .icon:nth-child(6)::before {}
 
-  .upper-menu__icon:nth-child(2) {}
+  .upper-menu > .icon:nth-child(2) {}
 
-  .upper-menu__icon:nth-child(6)::before {}
+  .upper-menu > .icon:nth-child(6)::before {}
 
-  .upper-menu__icon:nth-child(3),
+  .upper-menu > .icon:nth-child(3),
   .icon-chat,
-  .upper-menu__icon:nth-child(6) {}
+  .upper-menu > .icon:nth-child(6) {}
 
-  .upper-menu__icon:nth-child(7) {}
+  .upper-menu > .icon:nth-child(7) {}
 
   .main {
     height: 416px;
@@ -303,7 +303,7 @@ button {
 
   .icon {}
 
-  .icon-area__icon {
+  .icon-area > .icon {
     display: block;
   }
 
@@ -311,7 +311,7 @@ button {
     display: flex;
   }
 
-  .icon-area__text {
+  .icon-era__text {
     display: inline;
   }
 
