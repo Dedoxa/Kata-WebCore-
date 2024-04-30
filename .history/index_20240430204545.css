@@ -181,7 +181,6 @@ button {
 @media (max-width: 767px) {
   
   .upper-menu {
-    min-width: 320px;
     height: 88px;
   }
 
@@ -202,7 +201,6 @@ button {
   .upper-menu > .icon-container:nth-child(7) {}
 
   .main {
-    min-width: 320px;
     height: 509px;
     padding-top: 24px;
     padding-left: 16px;

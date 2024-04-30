@@ -181,7 +181,7 @@ button {
 @media (max-width: 767px) {
   
   .upper-menu {
-    min-width: 320px;
+    width: 320px;
     height: 88px;
   }
 
@@ -202,7 +202,7 @@ button {
   .upper-menu > .icon-container:nth-child(7) {}
 
   .main {
-    min-width: 320px;
+    width: 320px;
     height: 509px;
     padding-top: 24px;
     padding-left: 16px;
@@ -232,6 +232,7 @@ button {
 /* CSS ПЛАНШЕТЫ */
 @media (min-width: 768px) and (max-width: 1120px) {
   .upper-menu {
+    width: 768px;
     height: 88px;
   }
 
@@ -251,6 +252,7 @@ button {
   .upper-menu > .icon-container:nth-child(7) {}
 
   .main {
+    width: 768px;
     height: 416px;
     padding-top: 24px;
     padding-left: 24px;
@@ -316,6 +318,7 @@ button {
   }
 
   .main {
+    width: 1121px;
     height: 535px;
     padding-top: 42px;
     padding-left: 34px;

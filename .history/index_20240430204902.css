@@ -316,6 +316,7 @@ button {
   }
 
   .main {
+    width: 1121px;
     height: 535px;
     padding-top: 42px;
     padding-left: 34px;

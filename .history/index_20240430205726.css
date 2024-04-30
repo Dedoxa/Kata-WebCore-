@@ -203,7 +203,7 @@ button {
 
   .main {
     min-width: 320px;
-    height: 509px;
+    height: 1fr;
     padding-top: 24px;
     padding-left: 16px;
   }
