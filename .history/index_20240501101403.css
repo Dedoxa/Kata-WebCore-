@@ -172,11 +172,11 @@ button {
   );
 }
 
-.description__toggler {
+.toggler {
   display: flex;
 }
 
-.description__toggler-text {
+.toggler__text {
   font-family: "TT Lakes Medium";
 }
 
@@ -208,22 +208,15 @@ button {
     padding-bottom: 24px;
   }
 
-  .main__page-content {
-    padding-top: 24px;
-  }
-
   .bookmark-menu {}
-
-  .description__toggler {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
 
   .description__text {
     width: 288px;
     height: 90px;
     line-height: 18px;
   }
+
+  .toggler {}
 
   .main-image--size-tablet,
   .main-image--size-desktop {
@@ -237,7 +230,7 @@ button {
 }
 
 /* CSS ПЛАНШЕТЫ */
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (min-width: 768px) and (max-width: 1120px) {
   .upper-menu {
     height: 88px;
   }
@@ -248,23 +241,12 @@ button {
     padding-left: 24px;
   }
 
-  .main__title {
-    padding-bottom: 32px;
-  }
-
   .main__page-content {
     display: flex;
-    padding-top: 32px;
   }
 
   .description {
     height: 208px;
-    padding-right: 48px;
-  }
-
-  .description__toggler {
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 
   .description__text {
@@ -288,7 +270,7 @@ button {
 }
 
 /* CSS ДЕСКТОПЫ */
-@media (min-width: 1120px) {
+@media (min-width: 1121px) {
   .upper-menu,
   .bookmark-menu__right-fade-effect {
     display: none;
@@ -317,22 +299,8 @@ button {
     padding-left: 34px;
   }
 
-  .main__title {
-    padding-bottom: 8px;
-  }
-
   .main__page-content {
     display: flex;
-    padding-top: 16.22px;
-  }
-
-  .description {
-    padding-right: 36px;
-  }
-
-  .description__toggler {
-    margin-top: 13.78px;
-    margin-bottom: 13.78px;
   }
 
   .description__text {

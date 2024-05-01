@@ -237,7 +237,7 @@ button {
 }
 
 /* CSS ПЛАНШЕТЫ */
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (min-width: 768px) and (max-width: 1120px) {
   .upper-menu {
     height: 88px;
   }
@@ -288,7 +288,7 @@ button {
 }
 
 /* CSS ДЕСКТОПЫ */
-@media (min-width: 1120px) {
+@media (min-width: 1121px) {
   .upper-menu,
   .bookmark-menu__right-fade-effect {
     display: none;
