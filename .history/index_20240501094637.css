@@ -87,7 +87,7 @@ button {
   display: none;
 }
 
-.svg-image {
+.icon__svg-image {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -117,17 +117,17 @@ button {
   overflow: hidden;
 }
 
-.main__title {
+.title {
   display: flex;
 }
 
-.main__heading {
+.title__text {
   font-family: "TT Lakes Bold";
   font-size: 28px;
   color: #1b1c21;
 }
 
-.main__highlight {
+.title__highlight {
   position: absolute;
   left: -4px;
   width: 8px;
@@ -207,7 +207,9 @@ button {
     padding-left: 16px;
   }
 
-  .bookmark-menu {}
+  .bookmark-menu {
+    
+  }
 
   .description__text {
     width: 288px;

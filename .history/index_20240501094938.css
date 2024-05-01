@@ -87,7 +87,7 @@ button {
   display: none;
 }
 
-.svg-image {
+.icon__svg-image {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -121,7 +121,7 @@ button {
   display: flex;
 }
 
-.main__heading {
+.title__text {
   font-family: "TT Lakes Bold";
   font-size: 28px;
   color: #1b1c21;
