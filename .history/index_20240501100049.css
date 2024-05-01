@@ -115,7 +115,6 @@ button {
   font-size: 14px;
   color: #1b1c21;
   overflow: hidden;
-  font-weight: 500;
 }
 
 .main__title {
@@ -170,6 +169,10 @@ button {
     rgba(248, 248, 248, 0),
     rgba(248, 248, 248, 1)
   );
+}
+
+.description__text {
+  font-weight: 500;
 }
 
 .toggler {
