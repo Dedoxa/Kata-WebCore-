@@ -271,8 +271,7 @@ button {
     margin-right: 42.73px;
   }
 
-  .upper-menu__right > .upper-menu__icon:nth-child(-n + 2),
-  .upper-menu__right > .upper-menu__icon:nth-child(4) {
+  .upper-menu__right > .upper-menu__icon:nth-child(-n + 2) {
     margin-right: 16px;
   }
 
