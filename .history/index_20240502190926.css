@@ -158,7 +158,6 @@ button {
 }
 
 .bookmark-menu__bookmark {
-  font-family: "TT Lakes Regular", Times, serif;
   vertical-align: middle;
   padding-left: 1em;
   padding-right: 1em;
@@ -204,15 +203,7 @@ button {
     height: 88px;
   }
 
-  .upper-menu__left > .upper-menu__icon:first-child {
-    margin-right: 16.73px;
-  }
-
-  .upper-menu__right > .upper-menu__icon:nth-child(4) {
-    margin-right: 16px;
-  }
-
-  .upper-menu__right > .upper-menu__icon:nth-child(-n + 3),
+  .upper-menu__right > .upper-menu__icon:nth-child(n-3),
   .upper-menu__left > .upper-menu__icon:last-child::before,
   .icon-area__text {
     display: none;
