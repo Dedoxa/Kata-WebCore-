@@ -202,6 +202,7 @@ svg {
 
 /* CSS ТЕЛЕФОНЫ */
 @media (max-width: 767px) {
+  
   .upper-menu {
     min-width: 320px;
     height: 88px;
@@ -225,9 +226,6 @@ svg {
     min-width: 320px;
     height: 509px;
     padding-top: 24px;
-  }
-
-  .main__wrapper {
     padding-left: 16px;
   }
 
@@ -256,17 +254,9 @@ svg {
   }
 
   .main__image-phone {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (min-width: 321px) {
-  .main__image-phone,
-  .main__image-tablet,
-  .main__image-desktop {
-    border-radius: 5px;
+    position: absolute;
+    /* left: 0; */
+    right: 0;
   }
 }
 
@@ -292,9 +282,6 @@ svg {
   .main {
     height: 416px;
     padding-top: 24px;
-  }
-
-  .main__wrapper {
     padding-left: 24px;
   }
 
@@ -334,6 +321,7 @@ svg {
     position: static;
     width: 360px;
     height: 208px;
+    border-radius: 5px;
   }
 }
 
@@ -381,9 +369,6 @@ svg {
   .main {
     height: 535px;
     padding-top: 42px;
-  }
-
-  .main__wrapper {
     padding-left: 34px;
   }
 
@@ -421,5 +406,6 @@ svg {
     position: static;
     width: 531.35px;
     height: 307px;
+    border-radius: 5px;
   }
 }

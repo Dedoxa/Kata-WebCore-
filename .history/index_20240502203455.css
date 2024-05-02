@@ -57,13 +57,6 @@ button {
   background-color: transparent;
 }
 
-svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .upper-menu {
   display: flex;
   justify-content: space-between;
@@ -105,6 +98,13 @@ svg {
 .title__icon,
 .title__icon-text {
   display: none;
+}
+
+.svg-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .upper-menu__left > .upper-menu__icon:nth-child(2)::before,
@@ -202,6 +202,7 @@ svg {
 
 /* CSS ТЕЛЕФОНЫ */
 @media (max-width: 767px) {
+  
   .upper-menu {
     min-width: 320px;
     height: 88px;
@@ -225,9 +226,6 @@ svg {
     min-width: 320px;
     height: 509px;
     padding-top: 24px;
-  }
-
-  .main__wrapper {
     padding-left: 16px;
   }
 
@@ -240,6 +238,8 @@ svg {
     padding-right: 16px;
   }
 
+  .bookmark-menu {}
+
   .description__toggler {
     margin-top: 16px;
     margin-bottom: 16px;
@@ -250,23 +250,13 @@ svg {
     line-height: 18px;
   }
 
-  .main__image-tablet,
-  .main__image-desktop {
+  .image-tablet,
+  .image-desktop {
     display: none;
   }
 
-  .main__image-phone {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (min-width: 321px) {
-  .main__image-phone,
-  .main__image-tablet,
-  .main__image-desktop {
-    border-radius: 5px;
+  .image-phone {
+    position: absolute;
   }
 }
 
@@ -292,9 +282,6 @@ svg {
   .main {
     height: 416px;
     padding-top: 24px;
-  }
-
-  .main__wrapper {
     padding-left: 24px;
   }
 
@@ -305,7 +292,6 @@ svg {
   .main__page-content {
     display: flex;
     padding-top: 32px;
-    padding-right: 25px;
   }
 
   .description {
@@ -320,20 +306,21 @@ svg {
 
   .description__text {
     min-width: 312px;
-    max-height: 160px;
+    height: 160px;
     line-height: 20px;
   }
 
-  .main__image-phone,
-  .main__image-desktop,
+  .image-phone,
+  .image-desktop,
   .title__icon-text {
     display: none;
   }
 
-  .main__image-tablet {
+  .image-tablet {
     position: static;
     width: 360px;
     height: 208px;
+    border-radius: 5px;
   }
 }
 
@@ -381,9 +368,6 @@ svg {
   .main {
     height: 535px;
     padding-top: 42px;
-  }
-
-  .main__wrapper {
     padding-left: 34px;
   }
 
@@ -394,7 +378,6 @@ svg {
   .main__page-content {
     display: flex;
     padding-top: 16.22px;
-    padding-right: 28.65px;
   }
 
   .description {
@@ -408,18 +391,19 @@ svg {
 
   .description__text {
     min-width: 490px;
-    max-height: 160px;
+    height: 160px;
     line-height: 20px;
   }
 
-  .main__image-phone,
-  .main__image-tablet {
+  .image-phone,
+  .image-tablet {
     display: none;
   }
 
-  .main__image-desktop {
+  .image-desktop {
     position: static;
     width: 531.35px;
     height: 307px;
+    border-radius: 5px;
   }
 }

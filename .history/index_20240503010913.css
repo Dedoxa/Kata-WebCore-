@@ -202,6 +202,7 @@ svg {
 
 /* CSS ТЕЛЕФОНЫ */
 @media (max-width: 767px) {
+  
   .upper-menu {
     min-width: 320px;
     height: 88px;
@@ -266,8 +267,8 @@ svg {
   .main__image-phone,
   .main__image-tablet,
   .main__image-desktop {
-    border-radius: 5px;
-  }
+  border-radius: 5px;
+}
 }
 
 /* CSS ПЛАНШЕТЫ */
