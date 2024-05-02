@@ -75,7 +75,7 @@ button {
 }
 
 .upper-menu__icon,
-.title__icon {
+.icon-area__icon {
   position: relative;
   width: 40px;
   height: 40px;
@@ -95,7 +95,7 @@ button {
   margin-bottom: 6px;
 }
 
-.title__icon,
+.icon-area__icon,
 .title__icon-text {
   display: none;
 }
@@ -334,23 +334,18 @@ button {
 
   .title {
     justify-content: space-between;
-    padding-right: 32px;
   }
 
   .title__right-area {
     display: flex;
   }
 
-  .title__icon-area {
-    display: flex;
-  }
-
-  .title__icon {
+  .icon-area__icon {
     display: block;
   }
 
-  .title__icon-area:first-child {
-    margin-right: 32px;
+  .title__icon-area {
+    display: flex;
   }
 
   .title__icon-text {

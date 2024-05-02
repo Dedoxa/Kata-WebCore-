@@ -334,14 +334,9 @@ button {
 
   .title {
     justify-content: space-between;
-    padding-right: 32px;
   }
 
   .title__right-area {
-    display: flex;
-  }
-
-  .title__icon-area {
     display: flex;
   }
 
@@ -349,8 +344,8 @@ button {
     display: block;
   }
 
-  .title__icon-area:first-child {
-    margin-right: 32px;
+  .title__icon-area {
+    display: flex;
   }
 
   .title__icon-text {

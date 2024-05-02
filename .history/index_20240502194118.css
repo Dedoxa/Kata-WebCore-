@@ -75,7 +75,7 @@ button {
 }
 
 .upper-menu__icon,
-.title__icon {
+.icon-area__icon {
   position: relative;
   width: 40px;
   height: 40px;
@@ -95,8 +95,8 @@ button {
   margin-bottom: 6px;
 }
 
-.title__icon,
-.title__icon-text {
+.icon-area__icon,
+.icon-era__text {
   display: none;
 }
 
@@ -137,17 +137,17 @@ button {
   font-weight: 500;
 }
 
-.title {
+.main__title {
   display: flex;
 }
 
-.title__heading {
+.main__heading {
   font-family: "TT Lakes Bold";
   font-size: 28px;
   color: #1b1c21;
 }
 
-.title__highlight {
+.main__highlight {
   position: absolute;
   left: -4px;
   width: 8px;
@@ -218,7 +218,7 @@ button {
 
   .upper-menu__right > .upper-menu__icon:nth-child(-n + 3),
   .upper-menu__left > .upper-menu__icon:last-child::before,
-  .title__icon-text {
+  .icon-area__text {
     display: none;
   }
 
@@ -229,7 +229,7 @@ button {
     padding-left: 16px;
   }
 
-  .title {
+  .main__title {
     padding-bottom: 24px;
   }
 
@@ -286,7 +286,7 @@ button {
     padding-left: 24px;
   }
 
-  .title {
+  .main__title {
     padding-bottom: 32px;
   }
 
@@ -313,7 +313,7 @@ button {
 
   .image-phone,
   .image-desktop,
-  .title__icon-text {
+  .icon-area__text {
     display: none;
   }
 
@@ -332,33 +332,20 @@ button {
     display: none;
   }
 
-  .title {
-    justify-content: space-between;
-    padding-right: 32px;
-  }
-
-  .title__right-area {
-    display: flex;
-  }
-
-  .title__icon-area {
-    display: flex;
-  }
-
-  .title__icon {
+  .icon-area__icon {
     display: block;
   }
 
-  .title__icon-area:first-child {
-    margin-right: 32px;
+  .icon-area {
+    display: flex;
+    vertical-align: middle;
   }
 
-  .title__icon-text {
+  /* .icon-area:first-child {} */
+
+  .icon-area__text {
     display: inline;
     font-weight: 600;
-    margin-right: 8px;
-    margin-top: auto;
-    margin-bottom: auto;
   }
 
   .bookmark-menu {
@@ -372,7 +359,7 @@ button {
     padding-left: 34px;
   }
 
-  .title {
+  .main__title {
     padding-bottom: 8px;
   }
 
