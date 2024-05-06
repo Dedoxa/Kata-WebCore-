@@ -79,12 +79,10 @@ svg {
 .upper-menu__left,
 .upper-menu__right {
   display: flex;
-  flex: 0 1 auto;
 }
 
 .upper-menu__icon,
 .title__icon {
-  flex: 1 1 auto;
   position: relative;
   width: 40px;
   height: 40px;
@@ -149,9 +147,7 @@ svg {
   color: #1b1c21;
 }
 
-.title__heading:before {
-  content: "";
-  display: block;
+.title__highlight {
   position: absolute;
   left: -4px;
   width: 8px;
@@ -196,14 +192,12 @@ svg {
   );
 }
 
-.description__toggler-text {
-  font-family: "TT Lakes Medium";
+.description__toggler {
   display: flex;
-  line-height: 24px;
 }
 
-.description__toggler-text:before {
-  content: url("./ic/expand.svg");
+.description__toggler-text {
+  font-family: "TT Lakes Medium";
 }
 
 /* CSS ТЕЛЕФОНЫ */
@@ -213,10 +207,13 @@ svg {
     height: 88px;
   }
 
-.upper-menu__left,
-.upper-menu__right {
-  gap: 16px;
-}
+  .upper-menu__left > .upper-menu__icon:first-child {
+    margin-right: 16.73px;
+  }
+
+  .upper-menu__right > .upper-menu__icon:nth-child(4) {
+    margin-right: 16px;
+  }
 
   .upper-menu__right > .upper-menu__icon:nth-child(-n + 3),
   .upper-menu__left > .upper-menu__icon:last-child::before,
@@ -230,11 +227,11 @@ svg {
     padding-top: 24px;
   }
 
-  .main__general-wrapper {
+  .main__wrapper {
     padding-left: 16px;
   }
 
-  .main__title-wrapper {
+  .title__wrapper {
     margin-bottom: 24px;
   }
 
@@ -243,7 +240,7 @@ svg {
     padding-right: 16px;
   }
 
-  .description__toggler-text {
+  .description__toggler {
     margin-top: 16px;
     margin-bottom: 16px;
   }
@@ -279,14 +276,17 @@ svg {
     height: 88px;
   }
 
-.upper-menu__left,
-.upper-menu__right {
-  gap: 16px;
-}
+  .upper-menu__left > .upper-menu__icon:first-child {
+    margin-right: 42.73px;
+  }
 
-.upper-menu__left > .upper-menu__icon:nth-child(2),  
-.upper-menu__right > .upper-menu__icon:nth-child(4) {
-    margin-left: 24px;
+  .upper-menu__right > .upper-menu__icon:nth-child(-n + 2),
+  .upper-menu__right > .upper-menu__icon:nth-child(4) {
+    margin-right: 16px;
+  }
+
+  .upper-menu__right > .upper-menu__icon:nth-child(3) {
+    margin-right: 40px;
   }
 
   .main {
@@ -294,11 +294,11 @@ svg {
     padding-top: 24px;
   }
 
-  .main__general-wrapper {
+  .main__wrapper {
     padding-left: 24px;
   }
 
-  .main__title-wrapper {
+  .title__wrapper {
     margin-bottom: 32px;
   }
 
@@ -313,7 +313,7 @@ svg {
     padding-right: 48px;
   }
 
-  .description__toggler-text {
+  .description__toggler {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -348,13 +348,12 @@ svg {
     justify-content: space-between;
   }
 
-  .main__title-wrapper {
-    padding-right: 32px;
+  .title__wrapper {
+    margin-right: 32px;
   }
 
   .title__right-area {
     display: flex;
-    gap: 32px;
   }
 
   .title__icon-area {
@@ -363,6 +362,10 @@ svg {
 
   .title__icon {
     display: block;
+  }
+
+  .title__icon-area:first-child {
+    margin-right: 32px;
   }
 
   .title__icon-text {
@@ -383,11 +386,11 @@ svg {
     padding-top: 42px;
   }
 
-  .main__general-wrapper {
+  .main__wrapper {
     padding-left: 34px;
   }
 
-  .main__title-wrapper {
+  .title__wrapper {
     margin-bottom: 8px;
   }
 
@@ -401,7 +404,7 @@ svg {
     padding-right: 36px;
   }
 
-  .description__toggler-text {
+  .description__toggler {
     margin-top: 13.78px;
     margin-bottom: 13.78px;
   }
