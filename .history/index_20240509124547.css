@@ -103,7 +103,7 @@ svg {
   margin-bottom: 6px;
 }
 
-.icon--title,
+.title__icon,
 .title__icon-text {
   display: none;
 }
@@ -366,7 +366,7 @@ svg {
     display: flex;
   }
 
-  .icon--title {
+  .title__icon {
     display: block;
   }
 
