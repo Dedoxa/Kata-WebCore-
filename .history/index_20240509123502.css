@@ -227,11 +227,10 @@ svg {
   .main {
     min-width: 320px;
     height: 509px;
-  }
-
-  .main--intendations-3 {
     padding-top: 24px;
   }
+
+  .main
 
   .main__general-wrapper {
     padding-left: 16px;
@@ -294,9 +293,6 @@ svg {
 
   .main {
     height: 416px;
-  }
-
-  .main--intendations-3 {
     padding-top: 24px;
   }
 
@@ -386,9 +382,6 @@ svg {
 
   .main {
     height: 535px;
-  }
-
-  .main--intendations-3 {
     padding-top: 42px;
   }
 
