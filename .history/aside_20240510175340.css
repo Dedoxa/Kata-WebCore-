@@ -66,22 +66,24 @@ svg {
 
 .aside {
   width: 320px;
-  /* min-height: 1024px; */
+  min-height: 1024px;
   border: 1px dashed black;
 }
 
-.aside-header {
+.aside-menu {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
+  border-bottom: 1px solid #d9fff5;
+  width: auto;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-right: 16px;
   padding-left: 16px;
 }
 
-.aside-header__left,
-.aside-header__right {
+.aside-menu__left,
+.aside-menu__right {
   display: flex;
   flex: 0 1 auto;
   gap: 40px;
@@ -123,15 +125,11 @@ svg {
   background-color: #41f6d7;
 }
 
-.bookmarks {
+.bookmark-menu {
   display: block;
 }
 
-.bookmarks__bookmark {
+.bookmark-menu__bookmark {
   font-family: "TT Lakes Regular", Times, serif;
   vertical-align: middle;
-}
-
-.aside-footer {
-
 }

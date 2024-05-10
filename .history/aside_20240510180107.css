@@ -123,11 +123,11 @@ svg {
   background-color: #41f6d7;
 }
 
-.bookmarks {
+.bookmark-menu {
   display: block;
 }
 
-.bookmarks__bookmark {
+.bookmark-menu__bookmark {
   font-family: "TT Lakes Regular", Times, serif;
   vertical-align: middle;
 }

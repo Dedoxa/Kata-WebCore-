@@ -66,7 +66,7 @@ svg {
 
 .aside {
   width: 320px;
-  /* min-height: 1024px; */
+  min-height: 1024px;
   border: 1px dashed black;
 }
 
@@ -74,6 +74,8 @@ svg {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
+  border-bottom: 1px solid #d9fff5;
+  width: auto;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-right: 16px;
@@ -123,15 +125,11 @@ svg {
   background-color: #41f6d7;
 }
 
-.bookmarks {
+.bookmark-menu {
   display: block;
 }
 
-.bookmarks__bookmark {
+.bookmark-menu__bookmark {
   font-family: "TT Lakes Regular", Times, serif;
   vertical-align: middle;
-}
-
-.aside-footer {
-
 }
