@@ -66,7 +66,7 @@ svg {
   width: 320px;
   position: absolute;
   left: 0;
-  min-height: 100%;
+  min-height: 1024px;
   font-weight:600;
   background-color: #fff;
   box-shadow: 5px 0 50px 3px #bbb;
@@ -99,12 +99,10 @@ svg {
   height: 40px;
   background-color: #ff3e79;
   border-radius: 50%;
-  transition: opacity linear 0.2s;
-  opacity: 100%;
 }
 
 .icon:hover {
-  transition: opacity linear 0.2s;
+  transition-property: opacity;
   opacity: 50%;
 }
 
@@ -137,12 +135,6 @@ svg {
 .bookmark a {
   text-decoration: none;
   color: #1B1C21;
-  transition: color linear 0.2s;
-}
-
-.bookmark a:hover {
-  transition: color linear 0.2s;
-  color: #ff3e79;
 }
 
 .bookmark--focus > a {
@@ -193,16 +185,6 @@ svg {
 .language {
   display: flex;
   gap: 7px;
-}
-
-.language__option {
-  cursor: pointer;
-  transition: color linear 0.2s;
-}
-
-.language__option:hover {
-  transition: color linear 0.2s;
-  color: #ff3e79;
 }
 
 .language__option--current {
