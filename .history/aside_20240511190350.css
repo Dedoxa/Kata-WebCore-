@@ -60,16 +60,9 @@ svg {
 }
 
 .aside {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 320px;
-  position: absolute;
-  left: 0;
   min-height: 1024px;
-  font-weight:600;
-  background-color: #fff;
-  box-shadow: 5px 0 50px 3px #bbb;
+  border: 1px dashed #ccc;
 }
 
 .aside-header {
@@ -111,77 +104,32 @@ svg {
   height: 52px;
 }
 
-.aside__bookmark-list {
-  list-style-type: none;
-  padding-left: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  margin-top: 46px;
-}
-
-.bookmark {
-  display: flex;
-  font-family: "TT Lakes Regular", Times, serif;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.bookmark a {
-  text-decoration: none;
-  color: #1B1C21;
-}
-
-.bookmark--focus > a {
-  color: #7E7E82;
-}
-
-.bookmark--focus:after {
+.bookmark--focus:before {
   content: "";
   display: block;
   position: absolute;
   left: -4px;
-  transform: translate(0, -4px);
   width: 8px;
   height: 32px;
   border-radius: 10px;
   background-color: #41f6d7;
 }
 
-.aside-footer {
+.aside__bookmark-list {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 188px;
+  gap: 32px;
 }
 
-.aside-footer--width-320 {
-  margin-left: 24px;
-  margin-bottom: 32px;
+.bookmark {
+  display: block;
+  text-decoration: none;
+  font-family: "TT Lakes Regular", Times, serif;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px dashed #ccc;
 }
 
 .aside-footer__icons {
   display: flex;
-  gap: 16px;
-  margin-bottom: 16px;
-  width: 152px;
-}
-
-.contacts__email {
-  margin-bottom: 12px;
-}
-
-.contacts__phone-number {
-  font-family: "TT Lakes Bold", Times, serif;
-  font-size: 24px;
-  margin-bottom: 40px;
-}
-
-.language {
-  display: flex;
-  gap: 7px;
-}
-
-.language__option--current {
-  color: #7E7E82;
 }

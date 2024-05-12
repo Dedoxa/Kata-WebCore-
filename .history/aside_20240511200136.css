@@ -64,12 +64,9 @@ svg {
   flex-direction: column;
   justify-content: space-between;
   width: 320px;
-  position: absolute;
-  left: 0;
   min-height: 1024px;
+  border: 1px dashed #ccc;
   font-weight:600;
-  background-color: #fff;
-  box-shadow: 5px 0 50px 3px #bbb;
 }
 
 .aside-header {
@@ -121,27 +118,23 @@ svg {
 }
 
 .bookmark {
-  display: flex;
+  text-decoration: none;
   font-family: "TT Lakes Regular", Times, serif;
   font-size: 16px;
   line-height: 24px;
-}
-
-.bookmark a {
-  text-decoration: none;
   color: #1B1C21;
 }
 
-.bookmark--focus > a {
+.bookmark--focus {
   color: #7E7E82;
 }
 
-.bookmark--focus:after {
+.bookmark--focus:before {
   content: "";
   display: block;
-  position: absolute;
+  position: relative;
   left: -4px;
-  transform: translate(0, -4px);
+  top: 26px;
   width: 8px;
   height: 32px;
   border-radius: 10px;
@@ -155,7 +148,7 @@ svg {
   height: 188px;
 }
 
-.aside-footer--width-320 {
+.aside-footer__wrapper {
   margin-left: 24px;
   margin-bottom: 32px;
 }

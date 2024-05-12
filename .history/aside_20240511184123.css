@@ -52,6 +52,10 @@ p {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 svg {
   position: absolute;
   top: 50%;
@@ -60,36 +64,26 @@ svg {
 }
 
 .aside {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 320px;
-  position: absolute;
-  left: 0;
   min-height: 1024px;
-  font-weight:600;
-  background-color: #fff;
-  box-shadow: 5px 0 50px 3px #bbb;
+  border: 1px dashed black;
 }
 
 .aside-header {
-  background-color: #ffffff;
-}
-
-.aside-header__wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-right: 23px;
-  margin-left: 23px;
+  background-color: #ffffff;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .aside-header__left,
 .aside-header__right {
   display: flex;
   flex: 0 1 auto;
-  gap: 16px;
+  gap: 40px;
 }
 
 .icon {
@@ -101,87 +95,42 @@ svg {
   border-radius: 50%;
 }
 
-.icon--middle {
-  margin: auto 0;
-}
-
-.aside-header__left .icon:nth-child(2) {
+.icon:nth-child(2) {
   background-color: transparent;
   width: 98px;
   height: 52px;
 }
 
-.aside__bookmark-list {
-  list-style-type: none;
-  padding-left: 24px;
+.title {
   display: flex;
-  flex-direction: column;
-  gap: 32px;
-  margin-top: 46px;
 }
 
-.bookmark {
-  display: flex;
-  font-family: "TT Lakes Regular", Times, serif;
-  font-size: 16px;
-  line-height: 24px;
+.title__heading {
+  font-family: "TT Lakes Bold";
+  font-size: 28px;
+  color: #1b1c21;
 }
 
-.bookmark a {
-  text-decoration: none;
-  color: #1B1C21;
-}
-
-.bookmark--focus > a {
-  color: #7E7E82;
-}
-
-.bookmark--focus:after {
+.title__heading:before {
   content: "";
   display: block;
   position: absolute;
   left: -4px;
-  transform: translate(0, -4px);
   width: 8px;
-  height: 32px;
+  height: 40px;
   border-radius: 10px;
   background-color: #41f6d7;
 }
 
-.aside-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 188px;
+.bookmarks {
+  display: block;
 }
 
-.aside-footer--width-320 {
-  margin-left: 24px;
-  margin-bottom: 32px;
+.bookmarks__bookmark {
+  font-family: "TT Lakes Regular", Times, serif;
+  vertical-align: middle;
 }
 
 .aside-footer__icons {
   display: flex;
-  gap: 16px;
-  margin-bottom: 16px;
-  width: 152px;
-}
-
-.contacts__email {
-  margin-bottom: 12px;
-}
-
-.contacts__phone-number {
-  font-family: "TT Lakes Bold", Times, serif;
-  font-size: 24px;
-  margin-bottom: 40px;
-}
-
-.language {
-  display: flex;
-  gap: 7px;
-}
-
-.language__option--current {
-  color: #7E7E82;
 }
