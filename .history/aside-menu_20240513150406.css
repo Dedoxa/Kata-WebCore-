@@ -182,16 +182,17 @@ svg {
   margin-bottom: 40px;
 }
 
-.contacts__email > span,
-.contacts__phone-number > span {
+.contacts__email,
+.contacts__phone-number {
   cursor: pointer;
-  transition: color linear 0.2s;
+  transition: all linear 0.2s;
 }
 
-.contacts__email > span:hover,
-.contacts__phone-number > span:hover {
-  transition: color linear 0.2s;
+.contacts__email:hover,
+.contacts__phone-number:hover {
+  transition: all linear 0.2s;
   color: #ff3e79;
+  text-decoration: underline;
 }
 
 .language {
