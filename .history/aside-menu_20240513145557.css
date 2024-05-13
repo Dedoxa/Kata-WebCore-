@@ -62,7 +62,6 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
   padding-top: 24px;
   padding-right: 24px;
   padding-bottom: 32px;

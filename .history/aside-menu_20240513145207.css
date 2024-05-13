@@ -52,21 +52,23 @@ svg {
   width: 320px;
   position: absolute;
   left: 0;
-  height: 100%;
+  min-height: 100%;
   font-weight: 600;
   background-color: #fff;
   box-shadow: 5px 0 50px 3px #bbb;
+}
+
+.shango {
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  padding-left: 24px;
 }
 
 .aside__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
-  padding-top: 24px;
-  padding-right: 24px;
-  padding-bottom: 32px;
-  padding-left: 24px;
 }
 
 .aside-header {
