@@ -186,7 +186,6 @@ svg {
 .contacts__phone-number {
   display: block;
   text-decoration: none;
-  color: #1b1c21;
 }
 
 .contacts__email > span,

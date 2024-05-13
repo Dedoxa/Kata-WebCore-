@@ -173,24 +173,20 @@ svg {
 }
 
 .contacts__email {
+  display: block;
   margin-bottom: 12px;
 }
 
 .contacts__phone-number {
+  display: block;
   font-family: "TT Lakes Bold", Times, serif;
   font-size: 24px;
   margin-bottom: 40px;
 }
 
-.contacts__email,
-.contacts__phone-number {
-  display: block;
-  text-decoration: none;
-  color: #1b1c21;
-}
-
 .contacts__email > span,
 .contacts__phone-number > span {
+  text-decoration: none;
   cursor: pointer;
   transition: color linear 0.2s;
 }
