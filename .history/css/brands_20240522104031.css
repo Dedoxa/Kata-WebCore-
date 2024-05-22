@@ -1,0 +1,14 @@
+/* CSS ТЕЛЕФОНЫ */
+@media (max-width: 767px) {
+
+  }
+  
+/* CSS ПЛАНШЕТЫ */
+@media (min-width: 768px) and (max-width: 1119px) {
+
+}
+
+/* CSS ДЕСКТОПЫ */
+@media (min-width: 1120px) {
+
+}

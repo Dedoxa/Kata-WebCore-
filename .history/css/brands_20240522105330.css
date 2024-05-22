@@ -1,0 +1,78 @@
+@font-face {
+font-family: "TT Lakes Regular";
+src: url(fonts/TTLakes/Regular/TTLakes-Regular.eot);
+src: url(fonts/TTLakes/Regular/TTLakes-Regular.eot?#iefix)
+    format("embedded-opentype"),
+    url(fonts/TTLakes/Regular/TTLakes-Regular.woff) format("woff"),
+    url(fonts/TTLakes/Regular/TTLakes-Regular.ttf) format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+  
+@font-face {
+font-family: "TT Lakes Bold";
+src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot);
+src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot?#iefix)
+    format("embedded-opentype"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.woff) format("woff"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.ttf) format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+  
+@font-face {
+font-family: "TT Lakes Medium";
+src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot);
+src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot?#iefix)
+    format("embedded-opentype"),
+    url(fonts/TTLakes/Medium/TTLakes-Medium.woff) format("woff"),
+    url(fonts/TTLakes/Medium/TTLakes-Medium.ttf) format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+  
+html {
+box-sizing: border-box;
+font-family: "TT Lakes Regular", Times, serif;
+}
+  
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+  
+body,
+html,
+h1,
+h2,
+p {
+margin: 0;
+padding: 0;
+}
+  
+button {
+border: none;
+background-color: transparent;
+}
+  
+svg {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+/* CSS ТЕЛЕФОНЫ */
+@media (max-width: 767px) {
+
+  }
+  
+/* CSS ПЛАНШЕТЫ */
+@media (min-width: 768px) and (max-width: 1119px) {
+
+}
+
+/* CSS ДЕСКТОПЫ */
+@media (min-width: 1120px) {
+
+}
