@@ -135,14 +135,12 @@ svg {
     content: url("/brands-logos/lenovo-logo.png");
     width: 108px;
     height: 32px;
-    margin-left: 16px;
 }
 
 .brand-plate__dropdown {
     content: url("/ic/dropdown.svg");
     width: 40px;
     height: 40px;
-    margin-right: 16px;
 }
 
 .window__toggler-area {
@@ -177,9 +175,3 @@ svg {
 /* CSS ДЕСКТОПЫ */
 @media (min-width: 1120px) {
 }
-
-/* Доделать
-    логотипы - маленькое разрешение
-    градиент справа на мобилках - непрозрачен
-    высота страницы - ограничена
-*/

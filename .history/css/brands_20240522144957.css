@@ -138,6 +138,10 @@ svg {
     margin-left: 16px;
 }
 
+.brand-plate__logo:nth-child(-n+2) {
+    content: url("/brands-logos/samsung-logo.png");
+}
+
 .brand-plate__dropdown {
     content: url("/ic/dropdown.svg");
     width: 40px;
@@ -177,9 +181,3 @@ svg {
 /* CSS ДЕСКТОПЫ */
 @media (min-width: 1120px) {
 }
-
-/* Доделать
-    логотипы - маленькое разрешение
-    градиент справа на мобилках - непрозрачен
-    высота страницы - ограничена
-*/

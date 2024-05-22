@@ -142,7 +142,7 @@ svg {
     content: url("/ic/dropdown.svg");
     width: 40px;
     height: 40px;
-    margin-right: 16px;
+    margin-left: 16px;
 }
 
 .window__toggler-area {
@@ -177,9 +177,3 @@ svg {
 /* CSS ДЕСКТОПЫ */
 @media (min-width: 1120px) {
 }
-
-/* Доделать
-    логотипы - маленькое разрешение
-    градиент справа на мобилках - непрозрачен
-    высота страницы - ограничена
-*/

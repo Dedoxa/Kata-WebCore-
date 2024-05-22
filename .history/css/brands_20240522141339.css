@@ -117,12 +117,12 @@ svg {
   background: linear-gradient(to right, rgba(0, 0, 0, 0) 60%, red); /*доделать*/
 }
 
+/* # 0.1%, */
 /* #F8F8F8 100%, */
 
 .brand-plate {
+  content: url("/brands-logos/lenovo-logo.png");
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-shrink: 0;
   width: 240px;
   height: 72px;
@@ -132,17 +132,13 @@ svg {
 }
 
 .brand-plate__logo {
-    content: url("/brands-logos/lenovo-logo.png");
-    width: 108px;
-    height: 32px;
-    margin-left: 16px;
+    content: url("/ic/dropdown.svg");
+    transform: scale(0.5);
 }
 
-.brand-plate__dropdown {
+.brand-plate__logo::after {
     content: url("/ic/dropdown.svg");
-    width: 40px;
-    height: 40px;
-    margin-right: 16px;
+    display: inline-block;
 }
 
 .window__toggler-area {
@@ -177,9 +173,3 @@ svg {
 /* CSS ДЕСКТОПЫ */
 @media (min-width: 1120px) {
 }
-
-/* Доделать
-    логотипы - маленькое разрешение
-    градиент справа на мобилках - непрозрачен
-    высота страницы - ограничена
-*/
