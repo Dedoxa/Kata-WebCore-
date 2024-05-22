@@ -117,10 +117,10 @@ svg {
   right: 0px;
   width: 24px;
   height: 72px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), #F8F8F8); /*доделать*/
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 60%, red); /*доделать*/
 }
 
-/*  100%, */
+/* #F8F8F8 100%, */
 
 .brand-plate {
   display: flex;
@@ -135,41 +135,10 @@ svg {
 }
 
 .brand-plate__logo {
+    content: url("/brands-logos/lenovo-logo.png");
+    width: 108px;
+    height: 32px;
     margin-left: 16px;
-    height: 40px;
-}
-
-.brand-plate__lenovo-logo {
-  width: 108px;
-  height: 32px;
-}
-.brand-plate__samsung-logo {
-  width: 116px;
-  height: 38.52px;
-}
-.brand-plate__apple-logo {
-  width: 44px;
-  height: 44px;
-}
-.brand-plate__viewSonic-logo {
-  width: 128px;
-  height: 21px;
-}
-.brand-plate__bosch-logo {
-  width: 128px;
-  height: 28.6px;
-}
-.brand-plate__hp-logo {
-  width: 52px;
-  height: 52px;
-}
-.brand-plate__acer-logo {
-  width: 94px;
-  height: 24px;
-}
-.brand-plate__sony-logo {
-  width: 128px;
-  height: 25.6px;
 }
 
 .brand-plate__dropdown {
@@ -213,5 +182,7 @@ svg {
 }
 
 /* Доделать
+    логотипы - маленькое разрешение
+    градиент справа на мобилках - непрозрачен
     высота страницы - ограничена
 */

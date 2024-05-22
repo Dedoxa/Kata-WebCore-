@@ -143,34 +143,13 @@ svg {
   width: 108px;
   height: 32px;
 }
-.brand-plate__samsung-logo {
-  width: 116px;
-  height: 38.52px;
-}
-.brand-plate__apple-logo {
-  width: 44px;
-  height: 44px;
-}
-.brand-plate__viewSonic-logo {
-  width: 128px;
-  height: 21px;
-}
-.brand-plate__bosch-logo {
-  width: 128px;
-  height: 28.6px;
-}
-.brand-plate__hp-logo {
-  width: 52px;
-  height: 52px;
-}
-.brand-plate__acer-logo {
-  width: 94px;
-  height: 24px;
-}
-.brand-plate__sony-logo {
-  width: 128px;
-  height: 25.6px;
-}
+.brand-plate__samsung-logo {}
+.brand-plate__apple-logo {}
+.brand-plate__viewSonic-logo {}
+.brand-plate__bosch-logo {}
+.brand-plate__hp-logo {}
+.brand-plate__acer-logo {}
+.brand-plate__sony-logo {}
 
 .brand-plate__dropdown {
     content: url("/ic/dropdown.svg");
@@ -213,5 +192,7 @@ svg {
 }
 
 /* Доделать
+    логотипы - маленькое разрешение
+    градиент справа на мобилках - непрозрачен
     высота страницы - ограничена
 */
