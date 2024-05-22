@@ -201,15 +201,13 @@ svg {
 }
 
 .toggler-showHide {
-  display: flex;
-  align-content: center;
   font-family: "TT Lakes Medium", Times, serif;
   font-size: 16px;
-  height: 24px;
 }
 
 .toggler-showHide::before {
   content: url("/ic/expand.svg");
+  transform: translateY(+5px);
 }
 
 /* CSS ТЕЛЕФОНЫ */

@@ -20,7 +20,7 @@
   font-style: normal;
 } */
 
-@font-face {
+/* @font-face {
   font-family: "TT Lakes Medium";
   src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot);
   src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot?#iefix)
@@ -29,7 +29,7 @@
     url(fonts/TTLakes/Medium/TTLakes-Medium.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 html {
   box-sizing: border-box;
@@ -200,18 +200,6 @@ svg {
   background-color: #b5b6bc;
 }
 
-.toggler-showHide {
-  display: flex;
-  align-content: center;
-  font-family: "TT Lakes Medium", Times, serif;
-  font-size: 16px;
-  height: 24px;
-}
-
-.toggler-showHide::before {
-  content: url("/ic/expand.svg");
-}
-
 /* CSS ТЕЛЕФОНЫ */
 @media (max-width: 767px) {
 }
@@ -225,5 +213,5 @@ svg {
 }
 
 /* ДОДЕЛАТЬ
-
+  
 */
