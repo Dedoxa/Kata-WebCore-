@@ -31,6 +31,11 @@
   font-style: normal;
 } */
 
+body {
+    min-height: 100%;
+    background-color: red;
+}
+
 html {
   box-sizing: border-box;
   font-family: "TT Lakes Regular", Times, serif;
@@ -58,10 +63,6 @@ svg {
 
 .window {
     background-color: #F8F8F8;
-    /* background-color: rgb(118, 144, 144); */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 /* полоска */
@@ -116,8 +117,8 @@ svg {
     background: linear-gradient(
       to right,
       rgba(248, 248, 248, 0),
-      #F8F8F8
-      /* green */
+      /* #F8F8F8 */
+      green
     );
   }
 

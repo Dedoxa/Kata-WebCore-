@@ -58,13 +58,8 @@ svg {
 
 .window {
     background-color: #F8F8F8;
-    /* background-color: rgb(118, 144, 144); */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
-/* полоска */
 .window__heading::before {
     content: "";
     display: block;
@@ -78,32 +73,16 @@ svg {
     background-image: linear-gradient(to right, #ffffff00, #FFF);
 }
 
-.window__content-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.window__wrapper {
+.window__heading-wrapper {
     padding: 16px;
-}
-
-.window__wrapper--heading {
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
     color: #7E7E82;
 }
 
-.window__wrapper--toggler {
-    padding-top: 0;
-    padding-right: 0;
-    padding-left: 0;
-}
-
 .window__brands {
     display: flex;
-    overflow: scroll;
 }
 
 .window__brands::before {
@@ -116,10 +95,14 @@ svg {
     background: linear-gradient(
       to right,
       rgba(248, 248, 248, 0),
-      #F8F8F8
-      /* green */
+      /* #F8F8F8 */
+      green
     );
   }
+
+.window__brands-wrapper {
+    padding: 16px;
+}
 
 .brand-plate {
     display: flex;
@@ -129,11 +112,6 @@ svg {
     background-color: #FFF;
     border-radius: 5px;
     border: 1px solid #EAEAEA;
-}
-
-.window__toggler-area {
-    display: flex;
-    justify-content: center;
 }
 
 .toggler-dots {
@@ -146,10 +124,6 @@ svg {
     height: 12px;
     border-radius: 50%;
     background-color: #DDDDDD;
-}
-
-.toggler-dots__dot--active {
-    background-color: #B5B6BC;
 }
 
 /* CSS ТЕЛЕФОНЫ */
