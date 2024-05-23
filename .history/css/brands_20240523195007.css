@@ -160,6 +160,15 @@ svg {
     height: 40px;
 }
 
+.expand {
+  /* background-color: red; */
+  height: auto;
+}
+
+.upsideDown {
+  transform: rotate(180deg);
+}
+
 .brand-plate__lenovo-logo {
   width: 108px;
   height: 32px;
@@ -246,7 +255,7 @@ svg {
   }
 
   .window__brands {
-    height: 170px;
+    height: 150px;
   }
 }
 
@@ -255,17 +264,4 @@ svg {
   .window__wrapper {
     padding: 32px;
   }
-
-  .window__brands {
-    height: 170px;
-  }
-}
-
-/* Служебные классы */  
-.expand {
-  height: 560px;
-}
-
-.upsideDown {
-  transform: rotate(180deg);
 }

@@ -246,7 +246,11 @@ svg {
   }
 
   .window__brands {
-    height: 170px;
+    height: 150px;
+  }
+  
+  .expand {
+    height: 560px;
   }
 }
 
@@ -255,16 +259,13 @@ svg {
   .window__wrapper {
     padding: 32px;
   }
-
-  .window__brands {
-    height: 170px;
+  
+  .expand {
+    height: 500px;
   }
 }
 
-/* Служебные классы */  
-.expand {
-  height: 560px;
-}
+/* Служебные классы */
 
 .upsideDown {
   transform: rotate(180deg);

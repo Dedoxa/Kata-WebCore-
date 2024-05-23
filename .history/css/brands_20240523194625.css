@@ -84,7 +84,6 @@ svg {
 }
 
 .window__wrapper--toggler {
-  display: flex;
   padding-top: 0;
   padding-right: 0;
   padding-left: 0;
@@ -158,6 +157,14 @@ svg {
 .brand-plate__logo {
     margin-left: 16px;
     height: 40px;
+}
+
+.expand {
+  background-color: red;
+}
+
+.upsideDown {
+  transform: rotate(180deg);
 }
 
 .brand-plate__lenovo-logo {
@@ -246,7 +253,7 @@ svg {
   }
 
   .window__brands {
-    height: 170px;
+    height: 150px;
   }
 }
 
@@ -255,17 +262,4 @@ svg {
   .window__wrapper {
     padding: 32px;
   }
-
-  .window__brands {
-    height: 170px;
-  }
-}
-
-/* Служебные классы */  
-.expand {
-  height: 560px;
-}
-
-.upsideDown {
-  transform: rotate(180deg);
 }

@@ -72,6 +72,10 @@ svg {
   justify-content: space-between;
 }
 
+.window__wrapper {
+  padding: 16px;
+}
+
 .window__wrapper--brands {
   padding-right: 0;
 }
@@ -84,7 +88,6 @@ svg {
 }
 
 .window__wrapper--toggler {
-  display: flex;
   padding-top: 0;
   padding-right: 0;
   padding-left: 0;
@@ -114,11 +117,8 @@ svg {
 
 .window__brands {
   display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  overflow: hidden;
-  row-gap: 24px;
-  column-gap: 16px;
+  overflow: scroll;
+  gap: 16px;
 }
 
 .window__brands-swiper::after {
@@ -200,8 +200,9 @@ svg {
     margin-right: 16px;
 }
 
-.toggler-showHide {
-  cursor: pointer;
+.window__toggler-area {
+  display: flex;
+  justify-content: center;
 }
 
 .toggler-showHide {
@@ -212,16 +213,12 @@ svg {
   height: 24px;
 }
 
-.arrow {
+.toggler-showHide::before {
   content: url("/ic/expand.svg");
 }
 
 /* CSS ТЕЛЕФОНЫ */
 @media (max-width: 525px) {
-  .window__wrapper {
-    padding: 16px;
-  }
-
   .window__brands {
     display: none;
   }
@@ -235,37 +232,19 @@ svg {
   }
 }
 
-/* ПЛАНШЕТЫ */
-@media (min-width: 526px) and (max-width: 1119px) {
-  .window__wrapper {
-    padding: 24px;
-  }
+/* КРУПНЫЕ ТЕЛЕФОНЫ */
+@media (min-width: 526px) and (max-width: 767px) {
+  
+}
 
-  .brand-plate {
-    width: 224px;
-  }
-
-  .window__brands {
-    height: 170px;
-  }
+/* CSS ПЛАНШЕТЫ */
+@media (min-width: 768px) and (max-width: 1119px) {
 }
 
 /* CSS ДЕСКТОПЫ */
 @media (min-width: 1120px) {
-  .window__wrapper {
-    padding: 32px;
-  }
-
-  .window__brands {
-    height: 170px;
-  }
 }
 
-/* Служебные классы */  
-.expand {
-  height: 560px;
-}
+/* ДОДЕЛАТЬ
 
-.upsideDown {
-  transform: rotate(180deg);
-}
+*/

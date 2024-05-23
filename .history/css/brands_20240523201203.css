@@ -246,7 +246,7 @@ svg {
   }
 
   .window__brands {
-    height: 170px;
+    height: 165px;
   }
 }
 
@@ -254,10 +254,6 @@ svg {
 @media (min-width: 1120px) {
   .window__wrapper {
     padding: 32px;
-  }
-
-  .window__brands {
-    height: 170px;
   }
 }
 

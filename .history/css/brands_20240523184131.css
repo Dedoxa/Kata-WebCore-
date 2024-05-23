@@ -84,7 +84,6 @@ svg {
 }
 
 .window__wrapper--toggler {
-  display: flex;
   padding-top: 0;
   padding-right: 0;
   padding-left: 0;
@@ -114,11 +113,8 @@ svg {
 
 .window__brands {
   display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  overflow: hidden;
-  row-gap: 24px;
-  column-gap: 16px;
+  overflow: scroll;
+  gap: 16px;
 }
 
 .window__brands-swiper::after {
@@ -200,8 +196,9 @@ svg {
     margin-right: 16px;
 }
 
-.toggler-showHide {
-  cursor: pointer;
+.window__toggler-area {
+  display: flex;
+  justify-content: center;
 }
 
 .toggler-showHide {
@@ -212,7 +209,7 @@ svg {
   height: 24px;
 }
 
-.arrow {
+.toggler-showHide::before {
   content: url("/ic/expand.svg");
 }
 
@@ -245,8 +242,8 @@ svg {
     width: 224px;
   }
 
-  .window__brands {
-    height: 170px;
+  .window__wrapper--brands {
+    height: 150px;
   }
 }
 
@@ -256,16 +253,5 @@ svg {
     padding: 32px;
   }
 
-  .window__brands {
-    height: 170px;
-  }
-}
-
-/* Служебные классы */  
-.expand {
-  height: 560px;
-}
-
-.upsideDown {
-  transform: rotate(180deg);
+  
 }

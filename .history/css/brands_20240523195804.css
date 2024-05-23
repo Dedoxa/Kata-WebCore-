@@ -246,7 +246,7 @@ svg {
   }
 
   .window__brands {
-    height: 170px;
+    height: 150px;
   }
 }
 
@@ -255,15 +255,11 @@ svg {
   .window__wrapper {
     padding: 32px;
   }
-
-  .window__brands {
-    height: 170px;
-  }
 }
 
-/* Служебные классы */  
+/* Служебные классы */
 .expand {
-  height: 560px;
+  height: 500px;
 }
 
 .upsideDown {

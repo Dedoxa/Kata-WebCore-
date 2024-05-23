@@ -255,10 +255,6 @@ svg {
   .window__wrapper {
     padding: 32px;
   }
-
-  .window__brands {
-    height: 170px;
-  }
 }
 
 /* Служебные классы */  

@@ -84,7 +84,6 @@ svg {
 }
 
 .window__wrapper--toggler {
-  display: flex;
   padding-top: 0;
   padding-right: 0;
   padding-left: 0;
@@ -212,7 +211,7 @@ svg {
   height: 24px;
 }
 
-.arrow {
+.toggler-showHide::before {
   content: url("/ic/expand.svg");
 }
 
@@ -246,7 +245,8 @@ svg {
   }
 
   .window__brands {
-    height: 170px;
+    
+    height: 150px;
   }
 }
 
@@ -256,16 +256,5 @@ svg {
     padding: 32px;
   }
 
-  .window__brands {
-    height: 170px;
-  }
-}
-
-/* Служебные классы */  
-.expand {
-  height: 560px;
-}
-
-.upsideDown {
-  transform: rotate(180deg);
+  
 }

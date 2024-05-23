@@ -15,19 +15,11 @@ const swiper = new Swiper('.swiper', {
 
   TOGGLER.addEventListener('click', function () {
     if (TOGGLER.textContent === 'Показать всё') {
-
       BRANDS_CONTAINER.classList.add('expand');
-      ARROW.classList.add('upsideDown');
-
       TOGGLER.textContent = 'Скрыть';
-
     } else if (TOGGLER.textContent === 'Скрыть') {
-
       BRANDS_CONTAINER.classList.remove('expand');
-      ARROW.classList.remove('upsideDown');
-
       TOGGLER.textContent = 'Показать всё';
-
     };
   });
 
