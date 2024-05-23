@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url(fonts/TTLakes/Regular/TTLakes-Regular.eot);
+  src: url(fonts/TTLakes/Regular/TTLakes-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(fonts/TTLakes/Regular/TTLakes-Regular.woff) format("woff"),
+    url(fonts/TTLakes/Regular/TTLakes-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "TT Lakes Bold";
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot);
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.woff) format("woff"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot);
+  src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot?#iefix)
+      format("embedded-opentype"),
+    url(fonts/TTLakes/Medium/TTLakes-Medium.woff) format("woff"),
+    url(fonts/TTLakes/Medium/TTLakes-Medium.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html {
+  box-sizing: border-box;
+  font-family: "TT Lakes Regular", Times, serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.window {
+  background-color: #f8f8f8;
+  /* background-color: rgb(118, 144, 144); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* полоска */
+.window__heading::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #d9fff5;
+}
+
+.window__heading {
+  height: 80px;
+  vertical-align: middle;
+  background-image: linear-gradient(to right, #ffffff00, #fff);
+}
+
+.window__content-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.window__wrapper {
+  padding: 16px;
+}
+
+.window__wrapper--brands {
+  padding-right: 0;
+}
+
+.window__wrapper--heading {
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #7e7e82;
+}
+
+.window__wrapper--toggler {
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.window__brands {
+  display: flex;
+  overflow: scroll;
+  gap: 16px;
+}
+
+.window__brands::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  width: 24px;
+  height: 72px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #F8F8F8); /*доделать*/
+}
+
+/*  100%, */
+
+.brand-plate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  width: 240px;
+  height: 72px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+}
+
+.brand-plate__logo {
+    margin-left: 16px;
+    height: 40px;
+}
+
+.brand-plate__lenovo-logo {
+  width: 108px;
+  height: 32px;
+}
+.brand-plate__samsung-logo {
+  width: 116px;
+  height: 38.52px;
+}
+.brand-plate__apple-logo {
+  width: 44px;
+  height: 44px;
+}
+.brand-plate__viewSonic-logo {
+  width: 128px;
+  height: 21px;
+}
+.brand-plate__bosch-logo {
+  width: 128px;
+  height: 28.6px;
+}
+.brand-plate__hp-logo {
+  width: 52px;
+  height: 52px;
+}
+.brand-plate__acer-logo {
+  width: 94px;
+  height: 24px;
+}
+.brand-plate__sony-logo {
+  width: 128px;
+  height: 25.6px;
+}
+
+.brand-plate__dropdown {
+    content: url("/ic/dropdown.svg");
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.window__toggler-area {
+  display: flex;
+  justify-content: center;
+}
+
+.toggler-dots {
+  display: none;
+  gap: 12px;
+}
+
+.toggler-dots__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #dddddd;
+}
+
+.toggler-dots__dot--active {
+  background-color: #b5b6bc;
+}
+
+.toggler-showHide {
+  display: flex;
+  align-content: center;
+  font-family: "TT Lakes Medium", Times, serif;
+  font-size: 16px;
+  height: 24px;
+}
+
+.toggler-showHide::before {
+  content: url("/ic/expand.svg");
+}
+
+/* CSS ТЕЛЕФОНЫ */
+@media (max-width: 767px) {
+  .toggler-dots {
+    display: flex;
+  }
+
+  .toggler-showHide {
+    display: none;
+  }
+}
+
+/* CSS ПЛАНШЕТЫ */
+@media (min-width: 768px) and (max-width: 1119px) {
+}
+
+/* CSS ДЕСКТОПЫ */
+@media (min-width: 1120px) {
+}
+
+/* ДОДЕЛАТЬ
+
+*/
