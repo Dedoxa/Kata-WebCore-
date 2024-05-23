@@ -9,6 +9,17 @@
   font-style: normal;
 }
 
+/* @font-face {
+  font-family: "TT Lakes Bold";
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot);
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.woff) format("woff"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
 @font-face {
   font-family: "TT Lakes Medium";
   src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot);
@@ -219,7 +230,7 @@ svg {
 }
 
 /* CSS ТЕЛЕФОНЫ */
-@media (max-width: 525px) {
+@media (max-width: 767px) {
   .window__brands {
     display: none;
   }
@@ -233,12 +244,8 @@ svg {
   }
 }
 
-/* КРУПНЫЕ ТЕЛЕФОНЫ */
-@media (min-width: 526px) and (max-width: 767px) {
-}
-
 /* CSS ПЛАНШЕТЫ */
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (min-width: 400px) and (max-width: 1119px) {
 }
 
 /* CSS ДЕСКТОПЫ */

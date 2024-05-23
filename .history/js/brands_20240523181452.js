@@ -1,8 +1,8 @@
 'use strict'
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
-    loop: true,
-    
+    loop: false,
+
     pagination: {
       el: '.swiper-pagination',
     },

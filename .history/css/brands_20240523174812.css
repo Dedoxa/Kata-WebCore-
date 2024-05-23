@@ -9,6 +9,17 @@
   font-style: normal;
 }
 
+/* @font-face {
+  font-family: "TT Lakes Bold";
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot);
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.woff) format("woff"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
 @font-face {
   font-family: "TT Lakes Medium";
   src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot);
@@ -94,7 +105,7 @@ svg {
   padding-left: 0;
 }
 
-.window__swiper-container {
+.window__brands-swiper {
   display: none;
 }
 
@@ -144,7 +155,6 @@ svg {
 } */
 
 .brand-plate {
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -219,22 +229,18 @@ svg {
 }
 
 /* CSS ТЕЛЕФОНЫ */
-@media (max-width: 525px) {
+@media (max-width: 767px) {
   .window__brands {
     display: none;
   }
 
-  .window__swiper-container {
-    display: block;
+  .window__brands-swiper {
+    display: none;
   }
   
   .window__toggler-area {
     display: none;
   }
-}
-
-/* КРУПНЫЕ ТЕЛЕФОНЫ */
-@media (min-width: 526px) and (max-width: 767px) {
 }
 
 /* CSS ПЛАНШЕТЫ */

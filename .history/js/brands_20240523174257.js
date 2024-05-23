@@ -1,9 +1,14 @@
 'use strict'
+
+const { Mousewheel, Keyboard } = require("swiper/modules");
+
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
-    
+  
     pagination: {
       el: '.swiper-pagination',
     },
+    mousewheel: true,
+    keyboard: true,
   });

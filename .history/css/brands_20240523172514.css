@@ -9,6 +9,17 @@
   font-style: normal;
 }
 
+/* @font-face {
+  font-family: "TT Lakes Bold";
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot);
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.woff) format("woff"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
 @font-face {
   font-family: "TT Lakes Medium";
   src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot);
@@ -94,12 +105,12 @@ svg {
   padding-left: 0;
 }
 
-.window__swiper-container {
+.window__brands-swiper {
   display: none;
 }
 
 .swiper {
-  height: 116px;
+  height: 100px;
 }
 
 .swiper-slide {
@@ -116,35 +127,27 @@ svg {
   background-color: #B5B6BC;
 }
 
+.window__swiper-pagination-wrapper {
+  margin-top: 16px;
+}
+
 .window__brands {
   display: flex;
   overflow: scroll;
   gap: 16px;
 }
 
-.window__brands-swiper::after {
+.window__brands-swiper::before {
   z-index: 2;
   content: "";
   position: absolute;
   right: 0px;
-  top: 0px;
   width: 24px;
   height: 72px;
   background: linear-gradient(to right, rgba(0, 0, 0, 0), #F8F8F8);
 }
 
-/* .window__brands-swiper::before {
-  z-index: 2;
-  content: "";
-  position: absolute;
-  left: 0px;
-  width: 24px;
-  height: 72px;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), #F8F8F8);
-} */
-
 .brand-plate {
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -219,22 +222,18 @@ svg {
 }
 
 /* CSS ТЕЛЕФОНЫ */
-@media (max-width: 525px) {
+@media (max-width: 767px) {
   .window__brands {
     display: none;
   }
 
-  .window__swiper-container {
+  .window__brands-swiper {
     display: block;
   }
   
-  .window__toggler-area {
+  .toggler-showHide {
     display: none;
   }
-}
-
-/* КРУПНЫЕ ТЕЛЕФОНЫ */
-@media (min-width: 526px) and (max-width: 767px) {
 }
 
 /* CSS ПЛАНШЕТЫ */
