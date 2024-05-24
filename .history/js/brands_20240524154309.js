@@ -8,33 +8,27 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-const BRANDS_CONTAINER = document.querySelector('.window__brands');
-const TOGGLER_AREA = document.querySelector('.toggler-showHide');
-const TOGGLER = document.querySelector('.toggler-showHide');
-const ARROW = document.querySelector('.arrow');
+  const BRANDS_CONTAINER = document.querySelector('.window__brands');
+  const TOGGLER = document.querySelector('.window__wrapper--toggler');
+  const ARROW = document.querySelector('.arrow');
+  console.log(ARROW);
 
-function expandContainer (element) {
-  element.addEventListener('click', function () {
+  TOGGLER.addEventListener('click', function () {
     if (TOGGLER.textContent === 'Показать всё') {
-  
+
       BRANDS_CONTAINER.classList.add('js__expand');
       ARROW.classList.add('js__upsideDown');
-  
+
       TOGGLER.textContent = 'Скрыть';
-  
+
     } else if (TOGGLER.textContent === 'Скрыть') {
-  
+
       BRANDS_CONTAINER.classList.remove('js__expand');
       ARROW.classList.remove('js__upsideDown');
-  
+
       TOGGLER.textContent = 'Показать всё';
-  
+
     };
-  }); 
-};
-
-expandContainer(TOGGLER);
-expandContainer(ARROW);
-
+  });
 
   

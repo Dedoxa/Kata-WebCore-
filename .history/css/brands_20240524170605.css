@@ -114,6 +114,9 @@ div .window__wrapper--toggler {
   overflow: hidden;
   row-gap: 24px;
   column-gap: 16px;
+  /* !!! */
+  transform: translate(0,0)scaleY(0);
+  transition: 0.5s;
 }
 
 .window__brands-swiper::after {
@@ -148,12 +151,6 @@ div .window__wrapper--toggler {
   background-color: #fff;
   border-radius: 5px;
   border: 1px solid #eaeaea;
-  transition: background-color 0.1s linear;
-}
-
-.brand-plate:hover {
-  background-color:  #00000014;
-  transition: background-color 0.1s linear;
 }
 
 .brand-plate__logo {
@@ -167,8 +164,7 @@ div .window__wrapper--toggler {
     margin-right: 16px;
 }
 
-.toggler-showHide,
-.arrow {
+.toggler-showHide {
   cursor: pointer;
 }
 
@@ -240,30 +236,16 @@ label > span {
   }
 }
 
-/* Служебные классы */
-.js__upsideDown {
-  transform: rotate(180deg);
-}
-
+/* Служебные классы */  
 .js__expand {
+  transform: translate(0,0) scaleY(1);
+  /* transition: all linear 0.2s; */
   height: max-content;
 }
 
-/* .js__expand {
-  animation-name: expandingA;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
-} */
-
-/* @keyframes expandingA {
-  0% {
-    max-height: auto;
-  }
-  100% {
-    max-height: max-content;
-  }
-} */
+.js__upsideDown {
+  transform: rotate(180deg);
+}
 
 /* ДОДЕЛАТЬ */
 /*

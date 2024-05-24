@@ -107,6 +107,7 @@ div .window__wrapper--toggler {
 }
 
 .window__brands {
+  height: auto;
   display: inline-flex;
   align-content: flex-start;
   justify-content: flex-start;
@@ -148,12 +149,6 @@ div .window__wrapper--toggler {
   background-color: #fff;
   border-radius: 5px;
   border: 1px solid #eaeaea;
-  transition: background-color 0.1s linear;
-}
-
-.brand-plate:hover {
-  background-color:  #00000014;
-  transition: background-color 0.1s linear;
 }
 
 .brand-plate__logo {
@@ -167,8 +162,7 @@ div .window__wrapper--toggler {
     margin-right: 16px;
 }
 
-.toggler-showHide,
-.arrow {
+.toggler-showHide {
   cursor: pointer;
 }
 
@@ -246,7 +240,7 @@ label > span {
 }
 
 .js__expand {
-  height: max-content;
+  transition: max-height 0.2s linear;
 }
 
 /* .js__expand {

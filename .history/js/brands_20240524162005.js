@@ -12,6 +12,7 @@ const BRANDS_CONTAINER = document.querySelector('.window__brands');
 const TOGGLER_AREA = document.querySelector('.toggler-showHide');
 const TOGGLER = document.querySelector('.toggler-showHide');
 const ARROW = document.querySelector('.arrow');
+console.log(ARROW);
 
 function expandContainer (element) {
   element.addEventListener('click', function () {

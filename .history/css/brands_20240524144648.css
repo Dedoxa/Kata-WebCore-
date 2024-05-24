@@ -70,21 +70,22 @@ svg {
   flex-direction: column;
 }
 
-div .window__wrapper--heading {
+.window__wrapper--heading {
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
   color: #7e7e82;
-  padding: 16px;
 }
 
-div .window__wrapper--toggler {
+.window__wrapper--toggler {
   display: flex;
   padding-top: 0;
   padding-right: 0;
+  padding-left: 0;
 }
 
 .window__swiper-container {
+  justify-content: center;
   display: none;
 }
 
@@ -96,20 +97,19 @@ div .window__wrapper--toggler {
   justify-content: center;
 }
 
-.swiper-pagination .swiper-pagination-bullet {
+.swiper-pagination > .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #DDDDDD;
 }
 
-.swiper-pagination .swiper-pagination-bullet-active {
+.swiper-pagination > .swiper-pagination-bullet-active {
   background-color: #B5B6BC;
 }
 
 .window__brands {
-  display: inline-flex;
+  display: flex;
   align-content: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
   overflow: hidden;
   row-gap: 24px;
@@ -124,40 +124,67 @@ div .window__wrapper--toggler {
   top: 0px;
   width: 24px;
   height: 72px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), #FFF);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #F8F8F8);
 }
 
-.window__brands-swiper::before {
+/* .window__brands-swiper::before {
   z-index: 2;
   content: "";
   position: absolute;
   left: 0px;
   width: 24px;
   height: 72px;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), #FFF);
-}
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #F8F8F8);
+} */
 
 .brand-plate {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-grow: 0;
   flex-shrink: 0;
   width: 240px;
   height: 72px;
   background-color: #fff;
   border-radius: 5px;
   border: 1px solid #eaeaea;
-  transition: background-color 0.1s linear;
-}
-
-.brand-plate:hover {
-  background-color:  #00000014;
-  transition: background-color 0.1s linear;
 }
 
 .brand-plate__logo {
     margin-left: 16px;
+    height: 40px;
+}
+
+.brand-plate__lenovo-logo {
+  width: 108px;
+  height: 32px;
+}
+.brand-plate__samsung-logo {
+  width: 116px;
+  height: 38.52px;
+}
+.brand-plate__apple-logo {
+  width: 44px;
+  height: 44px;
+}
+.brand-plate__viewSonic-logo {
+  width: 128px;
+  height: 21px;
+}
+.brand-plate__bosch-logo {
+  width: 128px;
+  height: 28.6px;
+}
+.brand-plate__hp-logo {
+  width: 52px;
+  height: 52px;
+}
+.brand-plate__acer-logo {
+  width: 94px;
+  height: 24px;
+}
+.brand-plate__sony-logo {
+  width: 128px;
+  height: 25.6px;
 }
 
 .brand-plate__dropdown {
@@ -167,8 +194,7 @@ div .window__wrapper--toggler {
     margin-right: 16px;
 }
 
-.toggler-showHide,
-.arrow {
+.toggler-showHide {
   cursor: pointer;
 }
 
@@ -182,27 +208,16 @@ div .window__wrapper--toggler {
 
 .arrow {
   content: url("/ic/expand.svg");
-  border-radius: 50%;
-}
-
-label > span {
-  transition: all linear 0.2s;
 }
 
 /* CSS ТЕЛЕФОНЫ */
-@media (max-width: 543px) {
-  .window__wrapper--brands {
-    padding-top: 16px;
+@media (max-width: 525px) {
+  .window__wrapper {
+    padding: 16px;
   }
 
   .window__brands {
     display: none;
-  }
-
-  .brand-plate {
-    margin: auto;
-    min-width: 190px;
-    width: 80%;
   }
 
   .window__swiper-container {
@@ -215,12 +230,12 @@ label > span {
 }
 
 /* ПЛАНШЕТЫ */
-@media (min-width: 544px) and (max-width: 1119px) {
+@media (min-width: 526px) and (max-width: 1119px) {
   .window__wrapper {
     padding: 24px;
   }
 
-  div .brand-plate {
+  .brand-plate {
     width: 224px;
   }
 
@@ -240,34 +255,26 @@ label > span {
   }
 }
 
-/* Служебные классы */
+/* Служебные классы */  
+.js__expand {
+  height: 280px;
+}
+
 .js__upsideDown {
   transform: rotate(180deg);
 }
 
-.js__expand {
-  height: max-content;
-}
-
-/* .js__expand {
-  animation-name: expandingA;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
-} */
-
-/* @keyframes expandingA {
-  0% {
-    max-height: auto;
-  }
-  100% {
-    max-height: max-content;
-  }
-} */
-
 /* ДОДЕЛАТЬ */
-/*
-  МЕЛОЧИ
-  подсветка при клике на переключатель
+/* 
+  Отступы между плашками брэндов
+  построение сетки (flex-start)
+  растягивание плашек на телефонах и планшетах
+  подсветка при клике не переключатель
+  анимация стрелочки
   анимация для увеличения контейнера
+
+  ПРАВИЛЬНО ЛИ?
+  размеры иконок заданы классами
+  фиксированная высота expand'a
+
 */

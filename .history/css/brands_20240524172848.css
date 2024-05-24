@@ -152,7 +152,7 @@ div .window__wrapper--toggler {
 }
 
 .brand-plate:hover {
-  background-color:  #00000014;
+  background-color:  #7d7d7d;
   transition: background-color 0.1s linear;
 }
 
@@ -167,8 +167,7 @@ div .window__wrapper--toggler {
     margin-right: 16px;
 }
 
-.toggler-showHide,
-.arrow {
+.toggler-showHide {
   cursor: pointer;
 }
 

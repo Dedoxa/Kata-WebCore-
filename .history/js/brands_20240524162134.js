@@ -8,12 +8,12 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-const BRANDS_CONTAINER = document.querySelector('.window__brands');
 const TOGGLER_AREA = document.querySelector('.toggler-showHide');
 const TOGGLER = document.querySelector('.toggler-showHide');
 const ARROW = document.querySelector('.arrow');
 
 function expandContainer (element) {
+  const BRANDS_CONTAINER = document.querySelector('.window__brands');
   element.addEventListener('click', function () {
     if (TOGGLER.textContent === 'Показать всё') {
   
