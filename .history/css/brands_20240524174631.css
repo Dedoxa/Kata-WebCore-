@@ -1,3 +1,25 @@
+/* @font-face {
+  font-family: "TT Lakes Regular";
+  src: url(fonts/TTLakes/Regular/TTLakes-Regular.eot);
+  src: url(fonts/TTLakes/Regular/TTLakes-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(fonts/TTLakes/Regular/TTLakes-Regular.woff) format("woff"),
+    url(fonts/TTLakes/Regular/TTLakes-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot);
+  src: url(fonts/TTLakes/Medium/TTLakes-Medium.eot?#iefix)
+      format("embedded-opentype"),
+    url(fonts/TTLakes/Medium/TTLakes-Medium.woff) format("woff"),
+    url(fonts/TTLakes/Medium/TTLakes-Medium.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
 html {
   box-sizing: border-box;
   font-family: "TT Lakes Regular", Times, serif;
@@ -139,7 +161,7 @@ div .window__wrapper--toggler {
 }
 
 .brand-plate__dropdown {
-    content: url("https://dedoxa.github.io/Kata-WebCore-/ic/dropdown.svg");
+    content: url("ic/dropdown.svg");
     width: 40px;
     height: 40px;
     margin-right: 16px;
@@ -159,7 +181,7 @@ div .window__wrapper--toggler {
 }
 
 .arrow {
-  content: url("https://dedoxa.github.io/Kata-WebCore-/ic/expand.svg");;
+  content: url("ic/expand.svg");;
   border-radius: 50%;
 }
 

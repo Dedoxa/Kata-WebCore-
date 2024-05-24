@@ -139,7 +139,7 @@ div .window__wrapper--toggler {
 }
 
 .brand-plate__dropdown {
-    content: url("https://dedoxa.github.io/Kata-WebCore-/ic/dropdown.svg");
+    content: url("/ic/dropdown.svg");
     width: 40px;
     height: 40px;
     margin-right: 16px;
@@ -159,7 +159,7 @@ div .window__wrapper--toggler {
 }
 
 .arrow {
-  content: url("https://dedoxa.github.io/Kata-WebCore-/ic/expand.svg");;
+  content: url("/ic/expand.svg");;
   border-radius: 50%;
 }
 
