@@ -91,6 +91,8 @@ div .window__wrapper--toggler {
   justify-content: flex-start;
   flex-wrap: wrap;
   overflow: hidden;
+  row-gap: 24px;
+  column-gap: 16px;
 }
 
 .window__brands-swiper::after {

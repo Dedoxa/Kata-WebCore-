@@ -63,6 +63,11 @@ div .window__wrapper--toggler {
   padding-right: 0;
 }
 
+.window__wrapper--brands {
+  display: inline-block;
+  margin: 0 auto;
+}
+
 .window__swiper-container {
   display: none;
 }

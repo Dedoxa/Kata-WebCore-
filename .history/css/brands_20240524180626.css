@@ -91,6 +91,8 @@ div .window__wrapper--toggler {
   justify-content: flex-start;
   flex-wrap: wrap;
   overflow: hidden;
+  row-gap: 24px;
+  column-gap: 16px;
 }
 
 .window__brands-swiper::after {
@@ -204,11 +206,6 @@ label > span {
   .window__brands {
     height: 170px;
   }
-
-  .window__brands {
-    row-gap: 16px;
-    column-gap: 24px;
-  }
 }
 
 /* CSS ДЕСКТОПЫ */
@@ -223,11 +220,6 @@ label > span {
 
   .window__brands {
     height: 170px;
-  }
-
-  .window__brands {
-    row-gap: 16px;
-    column-gap: 32px;
   }
 }
 
