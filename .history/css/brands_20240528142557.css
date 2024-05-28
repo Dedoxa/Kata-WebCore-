@@ -156,8 +156,12 @@ div .window__wrapper--toggler {
     margin-right: 16px;
 }
 
-.toggler-showHide {
+.toggler-showHide,
+.arrow {
   cursor: pointer;
+}
+
+.toggler-showHide {
   display: flex;
   align-content: center;
   font-weight: 600;
@@ -165,8 +169,9 @@ div .window__wrapper--toggler {
   height: 24px;
 }
 
-.toggler-showHide::before {
-  content: url("https://dedoxa.github.io/Kata-WebCore-/ic/expand.svg");
+.arrow {
+  content: url("https://dedoxa.github.io/Kata-WebCore-/ic/expand.svg");;
+  border-radius: 50%;
 }
 
 label > span {
@@ -239,6 +244,10 @@ label > span {
 }
 
 /* Служебные классы */
+.js__upsideDown {
+  transform: rotate(180deg);
+}
+
 .js__expand {
   height: max-content;
 }
