@@ -14,6 +14,17 @@ html {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "TT Lakes Bold";
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot);
+  src: url(fonts/TTLakes/Bold/TTLakes-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.woff) format("woff"),
+    url(fonts/TTLakes/Bold/TTLakes-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 *:before,
 *:after {
@@ -164,7 +175,7 @@ div .window__wrapper--toggler {
 .toggler-showHide {
   display: flex;
   align-content: center;
-  font-weight: 600;
+  font-family: "TT Lakes Medium", Times, serif;
   font-size: 16px;
   height: 24px;
 }

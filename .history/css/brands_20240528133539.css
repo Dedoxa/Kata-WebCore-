@@ -164,7 +164,7 @@ div .window__wrapper--toggler {
 .toggler-showHide {
   display: flex;
   align-content: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   height: 24px;
 }
