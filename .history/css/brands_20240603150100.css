@@ -61,14 +61,14 @@ svg {
   flex-direction: column;
 }
 
-div .window__wrapper-heading {
+div .window__wrapper--heading {
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
   color: #7e7e82;
 }
 
-div .window__wrapper-toggler {
+div .window__wrapper--toggler {
   display: flex;
   padding-top: 0;
   padding-right: 0;
@@ -174,11 +174,7 @@ label > span {
 
 /* CSS ТЕЛЕФОНЫ */
 @media (max-width: 543px) {
-  div .window__wrapper-heading {
-    padding: 16px;
-  }
-
-  .window__wrapper-brands {
+  .window__wrapper--brands {
     padding-top: 16px;
   }
 

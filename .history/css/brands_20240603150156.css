@@ -174,10 +174,6 @@ label > span {
 
 /* CSS ТЕЛЕФОНЫ */
 @media (max-width: 543px) {
-  div .window__wrapper-heading {
-    padding: 16px;
-  }
-
   .window__wrapper-brands {
     padding-top: 16px;
   }
